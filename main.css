@@ -1,1 +1,9 @@
+.header {
+  background-color: blue;
+  font-size: 25px;
+}
 
+.intro {
+  font-size: 0.5rem;
+  color: black;
+}
