@@ -24,15 +24,6 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    @app.route('/hello')
-    def hello():
-        return render_template('index.html')
-
-    @app.route("/hackathons")
-    def hackathons_api():
-        hackathons = scraping.get_hackathons()
-        return hackathons
-
     @app.route('/')
     def index():
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
