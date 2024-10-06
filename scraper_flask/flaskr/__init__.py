@@ -78,76 +78,79 @@ def create_app(test_config=None):
 
     return app
 
-    def getHackathons(hackathons):
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-        driver.get('https://devfolio.co/hackathons')
-        time.sleep(5)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        driver.quit()
-        hackathon_group = soup.find_all('div', class_='sc-fmGnzW')
-        for hackathon in hackathon_group:
-            link_tag = hackathon.find('a', class_ = 'lkflLS') #text confusing, try 1 instead of l in case of error
-            date_tag = hackathon.find('p', class_ = 'cqgLqk')
-            title_tag = hackathon.find('h3', class_ = 'sc-dkzDqf')
-            if title_tag and date_tag and link_tag:
-                title = title_tag.text.strip()
-                date = date_tag.text.strip()
-                link = link_tag['href']
-                if link.startswith('/'):
-                    link = f"https://devfolio.com{link}"
-                hackathons.append({'title': title, 'date': date, 'link': link})
-            else:
-                print("Skipping a hackathon due to missing data:", hackathon)
+def getHackathons(hackathons):
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    driver.get('https://devfolio.co/hackathons')
+    time.sleep(5)
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    driver.quit()
+    hackathon_group = soup.find_all('div', class_='sc-fmGnzW')
+    for hackathon in hackathon_group:
+        link_tag = hackathon.find('a', class_ = 'lkflLS') #text confusing, try 1 instead of l in case of error
+        date_tag = hackathon.find('p', class_ = 'cqgLqk')
+        title_tag = hackathon.find('h3', class_ = 'sc-dkzDqf')
+        if title_tag and date_tag and link_tag:
+            title = title_tag.text.strip()
+            date = date_tag.text.strip()
+            link = link_tag['href']
+            if link.startswith('/'):
+                link = f"https://devfolio.com{link}"
+            hackathons.append({'title': title, 'date': date, 'link': link})
+        else:
+            print("Skipping a hackathon due to missing data:", hackathon)
 
-    def getmlhHackathons(hackathons):
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-        driver.get('https://mlh.io/seasons/2025/events')
-        time.sleep(5)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        driver.quit()
-        hackathon_container = soup.find_all('div', class_='event')
-        for hackathon in hackathon_container:
-            title_tag = hackathon.find('h3', class_='event-name')
-            link_tag = hackathon.find('a', class_='event-link')
-            date_tag = hackathon.find('p', class_='event-date')
-            if title_tag and date_tag and link_tag:
-                title = title_tag.text.strip()
-                date = date_tag.text.strip()
-                link = link_tag['href']
-                if link.startswith('/'):
-                    link = f"https://https://mlh.io/seasons/2025/events{link}"
-                hackathons.append({'title': title, 'date': date, 'link': link})
-            else:
-                print("Skipping a hackathon due to missing data:", hackathon)
+def getmlhHackathons(hackathons):
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    driver.get('https://mlh.io/seasons/2025/events')
+    time.sleep(5)
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    driver.quit()
+    hackathon_container = soup.find_all('div', class_='event')
+    for hackathon in hackathon_container:
+        title_tag = hackathon.find('h3', class_='event-name')
+        link_tag = hackathon.find('a', class_='event-link')
+        date_tag = hackathon.find('p', class_='event-date')
+        if title_tag and date_tag and link_tag:
+            title = title_tag.text.strip()
+            date = date_tag.text.strip()
+            link = link_tag['href']
+            if link.startswith('/'):
+                link = f"https://https://mlh.io/seasons/2025/events{link}"
+            hackathons.append({'title': title, 'date': date, 'link': link})
+        else:
+            print("Skipping a hackathon due to missing data:", hackathon)
 
-    def getMoreHackathons(hackathons):
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-        driver.get('https://www.hackathon.com/online')
-        time.sleep(5)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        driver.quit()
-        all_hackathons = soup.find_all('div', class_='ht-eb-card')
-        for hackathon in all_hackathons:
-            title_tag = hackathon.find('a', class_='ht-eb-card__title')
-            link_tag = hackathon.find('a', class_='ht-eb-card__title')
-            date = ''
-            start_date = hackathon.find('div', class_='date--start')
-            date += start_date.find('div', class_='date__title')
+def getMoreHackathons(hackathons):
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    driver.get('https://www.hackathon.com/online')
+    time.sleep(5)
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    driver.quit()
+    all_hackathons = soup.find_all('div', class_='ht-eb-card')
+    for hackathon in all_hackathons:
+        title_tag = hackathon.find('a', class_='ht-eb-card__title')
+        link_tag = hackathon.find('a', class_='ht-eb-card__title')
+        date = ''
+        start_date = hackathon.find('div', class_='date--start')
+        if start_date:
+            date += start_date.find('div', class_='date__title').text.strip()
             date += ' '
-            date += start_date.find('div', class_='date__day')
+            date += start_date.find('div', class_='date__day').text.strip()
             date += ' '
-            date += start_date.find('div', class_='date__month')
-            end_date = hackathon.find('div', class_='date--end')
-            date += end_date.find('div', class_='date__title')
+            date += start_date.find('div', class_='date__month').text.strip()
+        date += ' '
+        end_date = hackathon.find('div', class_='date--end')
+        if end_date:
+            date += end_date.find('div', class_='date__title').text.strip()
             date += ' '
-            date += end_date.find('div', class_='date__day')
+            date += end_date.find('div', class_='date__day').text.strip()
             date += ' '
-            date += end_date.find('div', class_='date__month')
-            if title_tag and link_tag:
-                title = title_tag.text.strip()
-                link = link_tag['href']
-                if link.startswith('/'):
-                    link = f"https://www.hackathon.com/online{link}"
-                hackathons.append({'title': title, 'date': date, 'link': link})
-            else:
-                print("Skipping a hackathon due to missing data:", hackathon)
+            date += end_date.find('div', class_='date__month').text.strip()
+        if title_tag and link_tag:
+            title = title_tag.text.strip()
+            link = link_tag['href']
+            if link.startswith('/'):
+                link = f"https://www.hackathon.com/online{link}"
+            hackathons.append({'title': title, 'date': date, 'link': link})
+        else:
+            print("Skipping a hackathon due to missing data:", hackathon)
