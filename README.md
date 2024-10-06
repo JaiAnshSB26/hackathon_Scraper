@@ -1,5 +1,5 @@
 
-For flask installation, follow the instructions on official Fask documentation: https://flask.palletsprojects.com/en/3.0.x/installation/
+For flask installation, follow the instructions on official Flask documentation: https://flask.palletsprojects.com/en/3.0.x/installation/
 
 For running the whole code, you'll have to run the following commands:
 `pip install selenium`
