@@ -1,18 +1,59 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackathons</title>
+    <title>Hackathon Scraper</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .list li {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
+            transition: transform 0.2s ease-in-out;
+        }
+        .list li:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #007bff;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Upcoming Hackathons</h1>
-    <ul>
-        {% for hackathon in hackathons %}
+    <div class="container">
+        <header class="text-center my-4">
+            <h1 class="display-4">Hackathon Scraper</h1>
+            <p class="lead">By Anubhav Choudhery, Jai Ansh Singh Bindra and Shaurya Shubham</p>
+        </header>
+
+        <ul class="list">
+            {% for hackathon in hackathons %}
             <li>
-                <a href="{{ hackathon.link }}">{{ hackathon.title }}</a> - {{ hackathon.date }}
+                <a href="{{ hackathon.link }}" class="title">{{ hackathon.title }}</a>
+                <p class="text-muted">{{ hackathon.date }}</p>
             </li>
-        {% endfor %}
-    </ul>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
