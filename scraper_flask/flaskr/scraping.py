@@ -225,11 +225,11 @@ def scrape_devfolio():
         driver.quit()
 
     hackathons = []
-    for hackathon in soup.find_all('div', class_='sc-fmGnzW'):
+    for hackathon in soup.find_all('div', class_='sc-bczRLJ'):
         try:
-            title = hackathon.find('h3', class_='sc-dkzDqf').get_text(strip=True)
-            date = hackathon.find('p', class_='cqgLqk').get_text(strip=True)
-            link = hackathon.find('a', class_='lkflLS').get('href')
+            title = hackathon.find('h3', class_='sc-hKMtZM').get_text(strip=True)
+            date = hackathon.find('p', class_='sc-hKMtZM').get_text(strip=True)
+            link = hackathon.find('a', class_='bnxtME').get('href')
             
             if link.startswith('/'):
                 link = f"https://devfolio.com{link}"
