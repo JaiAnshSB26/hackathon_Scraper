@@ -73,8 +73,8 @@ def _fast_scroll_devpost(driver):
     
     last_count = initial_tiles
     stagnant_attempts = 0
-    max_stagnant = 3  # Reduced patience for speed
-    max_scrolls = 60  # Reduced but still effective
+    max_stagnant = 5  # Reduced patience for speed
+    max_scrolls = 100
     
     # Pre-calculate scroll positions for speed
     viewport_height = driver.execute_script("return window.innerHeight")
