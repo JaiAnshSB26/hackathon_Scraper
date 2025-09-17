@@ -6,4 +6,4 @@ For running the whole code, you'll have to run the following commands:
 `pip install webdiver_manager`
 `pip install bs4`
 
-You can run the code from inside \hackathon_Scraper-main\hackathon_Scraper-main\scraper_flask using `flask --app flaskr run`
+You can run the code from inside \hackathon_Scraper-main\hackathon_Scraper-main\scraper_fflask using `flask --app flaskr run`

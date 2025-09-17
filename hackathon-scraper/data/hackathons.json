@@ -1,0 +1,17 @@
+hackathon-scraper
+├── .github
+│   └── workflows
+│       └── daily-scrape.yml
+├── src
+│   ├── scraper
+│   │   ├── __init__.py
+│   │   └── scraping.py
+│   └── static
+│       ├── index.html
+│       ├── style.css
+│       └── script.js
+├── data
+│   └── hackathons.json
+├── requirements.txt
+├── build.py
+└── README.md
