@@ -1,0 +1,4 @@
+Flask>=2.0
+selenium>=4.8
+webdriver-manager>=3.8
+beautifulsoup4>=4.9
