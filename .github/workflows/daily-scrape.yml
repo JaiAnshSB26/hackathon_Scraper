@@ -37,8 +37,63 @@
 #           github_token: ${{ secrets.GITHUB_TOKEN }}
 #           publish_dir: ./build
 
-name: Daily Scrape
+# name: Daily Scrape
 
+# on:
+#   schedule:
+#     - cron: '0 0 * * *'
+#   workflow_dispatch:
+
+# permissions:
+#   contents: write
+
+# jobs:
+#   scrape:
+#     runs-on: ubuntu-latest
+
+#     # run steps from the subfolder
+#     defaults:
+#       run:
+#         working-directory: hackathon-scraper
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v3
+
+#       - name: Set up Python
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.10'  # or your version
+
+#       # Uncomment this block if your scraper uses Selenium + webdriver_manager
+#       # and needs a browser binary on Linux:
+#       # - name: Install Chromium (for Selenium)
+#       #   run: |
+#       #     sudo apt-get update
+#       #     sudo apt-get install -y chromium-browser
+
+#       - name: Install dependencies
+#         run: |
+#           python -m pip install --upgrade pip
+#           pip install -r requirements.txt
+
+#       - name: Run scraper
+#         run: python src/scraper/scraping.py
+
+#       - name: Build static site
+#         run: python build.py   # should create ./build (or ./build/static)
+
+#       - name: Deploy to GitHub Pages
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           # If build.py outputs to build/  -> use this:
+#           publish_dir: ./hackathon-scraper/build
+#           # If build.py outputs to build/static -> use this instead:
+#           # publish_dir: ./hackathon-scraper/build/static
+
+
+name: Daily Scrape
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -50,44 +105,49 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-
-    # run steps from the subfolder
-    defaults:
-      run:
-        working-directory: hackathon-scraper
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+
+      # Optional but recommended if your full scraper uses Selenium
+      - name: Install Chrome (for Selenium)
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+      - run: google-chrome --version
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  # or your version
+          python-version: '3.10'
 
-      # Uncomment this block if your scraper uses Selenium + webdriver_manager
-      # and needs a browser binary on Linux:
-      # - name: Install Chromium (for Selenium)
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y chromium-browser
-
-      - name: Install dependencies
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r hackathon-scraper/requirements.txt || true
+          pip install -r scraper_flask/requirements.txt || true
 
-      - name: Run scraper
-        run: python src/scraper/scraping.py
+      - name: Expose repo to PYTHONPATH
+        run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+
+      # 🔥 Run the FULL scraper and save JSON where the site expects it
+      - name: Run full scraper -> JSON
+        run: |
+          python - <<'PY'
+          import os, json
+          from scraper_flask.flaskr.scraping import fetch_all_hackathons
+          os.makedirs('hackathon-scraper/data', exist_ok=True)
+          data = fetch_all_hackathons()
+          with open('hackathon-scraper/data/hackathons.json','w',encoding='utf-8') as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+          print("Scraped:", len(data), "hackathons")
+          PY
 
       - name: Build static site
-        run: python build.py   # should create ./build (or ./build/static)
+        working-directory: hackathon-scraper
+        run: python build.py    # must copy data/hackathons.json into build/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # If build.py outputs to build/  -> use this:
           publish_dir: ./hackathon-scraper/build
-          # If build.py outputs to build/static -> use this instead:
-          # publish_dir: ./hackathon-scraper/build/static
