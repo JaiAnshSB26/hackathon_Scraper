@@ -1,5 +1,6 @@
 import time
 import threading
+import os
 import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -13,44 +14,31 @@ from bs4 import BeautifulSoup
 
 def _make_headless_driver():
     opts = Options()
-    opts.add_argument('--headless=new')
-    opts.add_argument('--disable-gpu')
-    opts.add_argument('--no-sandbox')
-    opts.add_argument('--disable-dev-shm-usage')
-    opts.add_argument('--window-size=1920,1080')
-    opts.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36')
-    
-    # Enhanced performance optimizations
-    opts.add_argument('--disable-infobars')
-    opts.add_argument('--disable-extensions')
-    opts.add_argument('--disable-plugins')
-    opts.add_argument('--disable-images')  # Don't load images for faster loading
-    opts.add_argument('--disable-background-timer-throttling')
-    opts.add_argument('--disable-renderer-backgrounding')
-    opts.add_argument('--disable-backgrounding-occluded-windows')
-    opts.add_argument('--disable-features=TranslateUI')
-    opts.add_argument('--disable-ipc-flooding-protection')
-    opts.add_argument('--disable-web-security')  # Faster loading
-    opts.add_argument('--disable-features=VizDisplayCompositor')
-    opts.add_argument('--memory-pressure-off')
-    opts.add_experimental_option('excludeSwitches', ['enable-automation', 'enable-logging'])
-    opts.add_experimental_option('useAutomationExtension', False)
-    
-    # Aggressive performance settings
-    opts.add_experimental_option('prefs', {
-        'profile.default_content_setting_values.notifications': 2,
-        'profile.default_content_settings.popups': 0,
-        'profile.managed_default_content_settings.images': 2,
-        'profile.default_content_setting_values.media_stream': 2,
-        'profile.default_content_settings.geolocation': 2,
-        'profile.default_content_settings.microphone': 2,
-        'profile.default_content_settings.camera': 2,
-    })
-    
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
-    # Faster timeouts
-    driver.set_page_load_timeout(15)  # Reduced from 30
-    driver.implicitly_wait(2)  # Reduced from 5
+    opts.add_argument("--headless=new")
+    opts.add_argument("--no-sandbox")
+    opts.add_argument("--disable-dev-shm-usage")
+    opts.add_argument("--disable-gpu")
+    opts.add_argument("--window-size=1920,1080")
+    opts.add_argument("--disable-infobars")
+    opts.add_argument("--disable-extensions")
+    opts.add_argument("--disable-plugins")
+    opts.add_argument("--disable-background-timer-throttling")
+    opts.add_argument("--disable-renderer-backgrounding")
+    opts.add_argument("--disable-backgrounding-occluded-windows")
+    opts.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
+    opts.add_experimental_option("useAutomationExtension", False)
+
+    if os.getenv("GITHUB_ACTIONS") == "true":
+        opts.binary_location = "/usr/bin/google-chrome"
+        service = Service("/usr/bin/chromedriver")
+        driver = webdriver.Chrome(service=service, options=opts)
+    else:
+        from webdriver_manager.chrome import ChromeDriverManager
+        service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service, options=opts)
+
+    driver.set_page_load_timeout(20)
+    driver.implicitly_wait(2)
     return driver
 
 
