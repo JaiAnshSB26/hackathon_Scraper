@@ -1,0 +1,12 @@
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; line-height:1.4; margin:0; padding:0; color:#222 }
+.site-header{ background:#0f172a; color:#fff; padding:28px 20px }
+.site-header h1{ margin:0; font-size:1.6rem }
+.lead{ opacity:0.9 }
+main{ padding:20px }
+#search{ padding:8px 10px; width:100%; max-width:520px; margin-bottom:16px }
+.hackathon-list{ list-style:none; padding:0; margin:0; display:grid; gap:12px }
+.hackathon{ border:1px solid #e5e7eb; padding:12px; border-radius:6px }
+.hackathon h3{ margin:0 0 6px 0 }
+.hackathon a{ color:#0b60ff }
+#status{ margin-bottom:12px; color:#555 }
+footer{ padding:18px 20px; font-size:0.9rem; color:#555 }
