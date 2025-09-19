@@ -12,33 +12,26 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 
-def _make_headless_driver():
+def make_headless_driver():
+    """Create a headless Chrome/Chromium driver that works both locally and in GitHub Actions."""
+
     opts = Options()
-    opts.add_argument("--headless=new")
+    opts.add_argument("--headless=new")  # modern headless mode
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
     opts.add_argument("--disable-gpu")
+    opts.add_argument("--disable-software-rasterizer")
     opts.add_argument("--window-size=1920,1080")
-    opts.add_argument("--disable-infobars")
-    opts.add_argument("--disable-extensions")
-    opts.add_argument("--disable-plugins")
-    opts.add_argument("--disable-background-timer-throttling")
-    opts.add_argument("--disable-renderer-backgrounding")
-    opts.add_argument("--disable-backgrounding-occluded-windows")
-    opts.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
-    opts.add_experimental_option("useAutomationExtension", False)
 
     if os.getenv("GITHUB_ACTIONS") == "true":
-        opts.binary_location = "/usr/bin/google-chrome"
+        # On GitHub runners: use Chromium
+        opts.binary_location = "/usr/bin/chromium-browser"
         service = Service("/usr/bin/chromedriver")
         driver = webdriver.Chrome(service=service, options=opts)
     else:
-        from webdriver_manager.chrome import ChromeDriverManager
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=opts)
+        # Local dev: assumes Chrome is installed in PATH
+        driver = webdriver.Chrome(options=opts)
 
-    driver.set_page_load_timeout(20)
-    driver.implicitly_wait(2)
     return driver
 
 
@@ -188,7 +181,7 @@ def _parse_devpost(soup):
 def scrape_devpost():
     """Optimized Devpost scraping"""
     print("Starting optimized Devpost scraping...")
-    driver = _make_headless_driver()
+    driver = make_headless_driver()
     try:
         driver.get('https://devpost.com/hackathons')
         time.sleep(1.5)  # Reduced from 3
@@ -204,7 +197,7 @@ def scrape_devpost():
 
 def scrape_devfolio():
     """Optimized Devfolio scraping"""
-    driver = _make_headless_driver()
+    driver = make_headless_driver()
     try:
         driver.get('https://devfolio.co/hackathons')
         time.sleep(1.5)  # Reduced from 3
@@ -232,7 +225,7 @@ def scrape_devfolio():
 
 def scrape_mlh():
     """Optimized MLH scraping"""
-    driver = _make_headless_driver()
+    driver = make_headless_driver()
     try:
         driver.get('https://mlh.io/seasons/2025/events')
         time.sleep(1.5)  # Reduced from 3
@@ -260,7 +253,7 @@ def scrape_mlh():
 
 def scrape_hackathon_com():
     """Optimized Hackathon.com scraping"""
-    driver = _make_headless_driver()
+    driver = make_headless_driver()
     try:
         driver.get('https://www.hackathon.com/online')
         time.sleep(1.5)  # Reduced from 3
