@@ -24,14 +24,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Chrome
+      - name: Install Chrome + Chromedriver
         run: |
           sudo apt-get update
-          sudo apt-get install -y wget gnupg2 --no-install-recommends
-          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+          sudo apt-get install -y --no-install-recommends \
+            google-chrome-stable \
+            chromium-chromedriver
 
       - name: Install dependencies
         run: |
@@ -41,6 +39,7 @@ jobs:
       - name: Run scraper
         env:
           PIP_NO_CACHE_DIR: 'off'
+          GITHUB_ACTIONS: 'true'   
         run: |
           python scraper_flask/scripts/run_scraper.py
 
@@ -50,8 +49,6 @@ jobs:
           file_pattern: 'scraper_flask/data/hackathons.json'
           commit_message: 'chore: update hackathons.json [skip ci]'
           branch: 'main'
-          # use action inputs accepted by this action
           commit_user_name: 'github-actions[bot]'
           commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
-          # avoid fetching extra refs (we already checked out)
           skip_fetch: true
