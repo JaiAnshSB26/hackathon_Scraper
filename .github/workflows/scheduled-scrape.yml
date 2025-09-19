@@ -5,6 +5,9 @@ on:
     - cron: '0 6 * * *'  # Run daily at 06:00 UTC
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -12,6 +15,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -41,8 +47,11 @@ jobs:
       - name: Commit generated JSON
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'chore: update hackathons.json [skip ci]'
           file_pattern: 'scraper_flask/data/hackathons.json'
+          commit_message: 'chore: update hackathons.json [skip ci]'
           branch: 'main'
-          author_name: 'github-actions'
-          author_email: 'actions@github.com'
+          # use action inputs accepted by this action
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          # avoid fetching extra refs (we already checked out)
+          skip_fetch: true
