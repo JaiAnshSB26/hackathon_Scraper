@@ -1,129 +1,189 @@
-import time
-import threading
-import concurrent.futures
-import os
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
-from bs4 import BeautifulSoup
-
-
-def make_headless_driver():
+import time 
+import threading 
+import os 
+import concurrent.futures 
+from selenium import webdriver 
+from selenium.webdriver.chrome.service import Service 
+from selenium.webdriver.common.by import By 
+from selenium.webdriver.chrome.options import Options 
+from selenium.webdriver.support.ui import WebDriverWait 
+from selenium.webdriver.support import expected_conditions as EC 
+from webdriver_manager.chrome import ChromeDriverManager 
+from bs4 import BeautifulSoup 
+def _make_headless_driver():
     """Create a headless Chrome/Chromium driver that works both locally and in GitHub Actions."""
-
     opts = Options()
-    opts.add_argument("--headless=new")  # modern headless mode
-    opts.add_argument("--no-sandbox")
-    opts.add_argument("--disable-dev-shm-usage")
-    opts.add_argument("--disable-gpu")
-    opts.add_argument("--disable-software-rasterizer")
-    opts.add_argument("--window-size=1920,1080")
+    opts.add_argument('--headless=new')
+    opts.add_argument('--no-sandbox')
+    opts.add_argument('--disable-dev-shm-usage')
+    opts.add_argument('--disable-gpu')
+    opts.add_argument('--disable-software-rasterizer')
+    opts.add_argument('--window-size=1920,1080')
+    opts.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36')
+    opts.add_experimental_option('excludeSwitches', ['enable-automation', 'enable-logging'])
+    opts.add_experimental_option('useAutomationExtension', False)
 
-    if os.getenv("GITHUB_ACTIONS") == "true":
-        # On GitHub runners: use Chromium
-        opts.binary_location = "/usr/bin/chromium-browser"
-        service = Service("/usr/bin/chromedriver")
-        driver = webdriver.Chrome(service=service, options=opts)
+    # Use system Chrome/Chromium on GitHub Actions
+    if os.getenv('GITHUB_ACTIONS') == 'true':
+        # On GitHub runners the Chrome binary and chromedriver paths are standard
+        try:
+            service = Service('/usr/bin/chromedriver')
+            driver = webdriver.Chrome(service=service, options=opts)
+        except Exception:
+            # Fallback to webdriver-manager if direct service fails
+            driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
     else:
-        # Local dev: assumes Chrome is installed in PATH
-        driver = webdriver.Chrome(options=opts)
+        # Local dev: let webdriver-manager handle driver install if needed
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=opts)
 
+    # Reasonable timeouts for CI and local runs
+    driver.set_page_load_timeout(30)
+    driver.implicitly_wait(3)
     return driver
 
 
 def _fast_scroll_devpost(driver):
-    """Robust scrolling for Devpost until no new tiles appear."""
-    print("Starting Devpost full scrolling...")
-
+    """Optimized scrolling for Devpost with faster timing and smarter detection"""
+    print('Starting optimized Devpost scrolling...')
     try:
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "hackathon-tile"))
+        WebDriverWait(driver, 6).until(
+            EC.presence_of_element_located((By.CLASS_NAME, 'hackathon-tile'))
         )
-    except:
-        print("No hackathon tiles found on Devpost")
+        time.sleep(1)
+    except Exception:
+        print('No initial hackathon tiles found')
         return 0
 
-    last_count = 0
-    stagnant_rounds = 0
-    max_stagnant = 8   # require stability across many rounds
-    max_scrolls = 200  # allow deeper scrolls for full coverage
+    initial_tiles = len(driver.find_elements(By.CLASS_NAME, 'hackathon-tile'))
+    print(f'Initial tiles: {initial_tiles}')
+
+    last_count = initial_tiles
+    stagnant_attempts = 0
+    max_stagnant = 5
+    max_scrolls = 100
+
+    viewport_height = driver.execute_script('return window.innerHeight')
+    scroll_increment = viewport_height * 0.8
 
     for attempt in range(max_scrolls):
-        # Scroll to bottom
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        time.sleep(1.2)  # give time for new tiles to load
+        scroll_data = driver.execute_script("""
+            return {
+                tiles: document.querySelectorAll('.hackathon-tile').length,
+                height: document.body.scrollHeight,
+                scroll: window.pageYOffset,
+                viewport: window.innerHeight
+            };
+        """)
 
-        tiles = driver.find_elements(By.CLASS_NAME, "hackathon-tile")
-        new_count = len(tiles)
+        current_tiles = scroll_data['tiles']
+        current_height = scroll_data['height']
+        current_scroll = scroll_data['scroll']
+        viewport_height = scroll_data['viewport']
 
-        if new_count > last_count:
-            print(f"  Scroll {attempt+1}: {new_count} tiles (gained {new_count - last_count})")
-            last_count = new_count
-            stagnant_rounds = 0
+        if current_scroll + viewport_height >= current_height - 500:
+            driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
         else:
-            stagnant_rounds += 1
-            print(f"  Scroll {attempt+1}: no new tiles ({stagnant_rounds}/{max_stagnant})")
+            new_pos = current_scroll + scroll_increment
+            driver.execute_script(f'window.scrollTo(0, {new_pos});')
 
-        # Stop if stable for too long
-        if stagnant_rounds >= max_stagnant:
+        time.sleep(0.8)
+
+        quick_check = driver.execute_script("""
+            return {
+                tiles: document.querySelectorAll('.hackathon-tile').length,
+                height: document.body.scrollHeight
+            };
+        """)
+
+        new_tiles = quick_check['tiles']
+        new_height = quick_check['height']
+
+        if new_tiles > current_tiles or new_height > current_height:
+            gained = new_tiles - current_tiles
+            last_count = new_tiles
+            stagnant_attempts = 0
+            if gained > 0:
+                print(f'  Scroll {attempt + 1}: +{gained} tiles (total: {new_tiles})')
+            time.sleep(0.5)
+        else:
+            stagnant_attempts += 1
+            print(f'  Scroll {attempt + 1}: No new content ({stagnant_attempts}/{max_stagnant})')
+
+        if stagnant_attempts == 2 and attempt < max_scrolls - 10:
+            try:
+                button = driver.find_element(By.XPATH, "//button[contains(translate(text(), 'ML', 'ml'), 'more')] | //a[contains(translate(text(), 'ML', 'ml'), 'more')]")
+                if button.is_displayed() and button.is_enabled():
+                    print(f'  → Clicking: {button.text[:20]}')
+                    driver.execute_script('arguments[0].click();', button)
+                    time.sleep(1.5)
+                    stagnant_attempts = 0
+            except Exception:
+                pass
+
+        if stagnant_attempts >= max_stagnant:
+            print(f'  → Stopping after {attempt+1} scrolls: {stagnant_attempts} stagnant attempts')
             break
 
-    print(f"Devpost scrolling finished with {last_count} tiles")
-    return last_count
+        if attempt % 15 == 0 and attempt > 0:
+            print(f'  → Scroll checkpoint {attempt}: {current_tiles} tiles')
+
+    final_count = len(driver.find_elements(By.CLASS_NAME, 'hackathon-tile'))
+    print(f'Devpost scrolling complete: {initial_tiles} → {final_count} (+{final_count - initial_tiles})')
+    return final_count
 
 
 def _parse_devpost(soup):
-    """Parse Devpost tiles into hackathon objects"""
+    """Optimized parsing with batch processing"""
     hackathons = []
     tiles = soup.find_all('div', class_='hackathon-tile')
-    print(f"Parsing {len(tiles)} Devpost tiles...")
+    if not tiles:
+        return hackathons
+
+    print(f'Parsing {len(tiles)} tiles...')
+    parsed_count = 0
 
     for tile in tiles:
         try:
-            title_tag = tile.find('h3')
+            title_tag = tile.find('h3', class_='mb-4')
             date_tag = tile.find('div', class_='submission-period')
-            link_tag = tile.find('a', href=True)
+            link_tag = tile.find('a', class_='flex-row')
 
-            if not (title_tag and link_tag):
-                continue
+            if all([title_tag, date_tag, link_tag]):
+                title = title_tag.get_text(strip=True)
+                date = date_tag.get_text(strip=True)
+                link = link_tag.get('href')
 
-            title = title_tag.get_text(strip=True)
-            date = date_tag.get_text(strip=True) if date_tag else ""
-            link = link_tag['href']
-            if link.startswith('/'):
-                link = f"https://devpost.com{link}"
+                if link and link.startswith('/'):
+                    link = f'https://devpost.com{link}'
 
-            hackathons.append({'title': title, 'date': date, 'link': link})
-        except:
+                hackathons.append({'title': title, 'date': date, 'link': link})
+                parsed_count += 1
+        except Exception:
             continue
 
-    print(f"Parsed {len(hackathons)} Devpost hackathons")
+    print(f'Successfully parsed: {parsed_count}/{len(tiles)}')
     return hackathons
 
 
 def scrape_devpost():
-    """Scrape Devpost with robust scrolling and parsing"""
-    print("Starting Devpost scrape...")
-    driver = make_headless_driver()
+    """Optimized Devpost scraping"""
+    print('Starting optimized Devpost scraping...')
+    driver = _make_headless_driver()
     try:
         driver.get('https://devpost.com/hackathons')
-        time.sleep(2)
+        time.sleep(1.5)
 
-        _fast_scroll_devpost(driver)
+        final_count = _fast_scroll_devpost(driver)
         soup = BeautifulSoup(driver.page_source, 'html.parser')
+
     finally:
         driver.quit()
 
     return _parse_devpost(soup)
 
-
 def scrape_devfolio():
     """Optimized Devfolio scraping"""
-    driver = make_headless_driver()
+    driver = _make_headless_driver()
     try:
         driver.get('https://devfolio.co/hackathons')
         time.sleep(1.5)  # Reduced from 3
@@ -151,7 +211,7 @@ def scrape_devfolio():
 
 def scrape_mlh():
     """Optimized MLH scraping"""
-    driver = make_headless_driver()
+    driver = _make_headless_driver()
     try:
         driver.get('https://mlh.io/seasons/2025/events')
         time.sleep(1.5)  # Reduced from 3
@@ -179,7 +239,7 @@ def scrape_mlh():
 
 def scrape_hackathon_com():
     """Optimized Hackathon.com scraping"""
-    driver = make_headless_driver()
+    driver = _make_headless_driver()
     try:
         driver.get('https://www.hackathon.com/online')
         time.sleep(1.5)  # Reduced from 3
