@@ -1,147 +1,1087 @@
 [
   {
-    "title": "BlockTrain",
-    "date": "Featured",
-    "link": "https://blocktrain.devfolio.co/"
+    "title": "Your hackathons",
+    "date": "",
+    "link": "https://devfolio.co/hackathons/applied"
   },
   {
-    "title": "Onchain Summer Awards",
-    "date": "Featured",
-    "link": "https://onchain-summer-awards.devfolio.co/"
+    "title": "All open hackathons",
+    "date": "",
+    "link": "https://devfolio.co/hackathons/open"
   },
   {
-    "title": "mosAIc: AI in action with The Product Folks",
-    "date": "Featured",
-    "link": "https://mosaicbytpf.devfolio.co/"
+    "title": "All upcoming hackathons",
+    "date": "",
+    "link": "https://devfolio.co/hackathons/upcoming"
   },
   {
-    "title": "VØID:V1",
-    "date": "Hackathon",
-    "link": "https://voidv1.devfolio.co/"
+    "title": "All past hackathons",
+    "date": "",
+    "link": "https://devfolio.co/hackathons/past"
   },
   {
-    "title": "HACK <N> PITCH",
-    "date": "Hackathon",
-    "link": "https://hackandpitch.devfolio.co/"
+    "title": "Explore hackathons",
+    "date": "",
+    "link": "https://devfolio.co/hackathons"
   },
   {
-    "title": "UDAYA 1.0",
-    "date": "Hackathon",
-    "link": "https://udaya-1-0.devfolio.co/"
+    "title": "RevenueCat Shipaton 2025",
+    "date": "Jul 31 - Oct 01, 2025",
+    "link": "https://revenuecat-shipaton-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hack4Brahmaputra",
-    "date": "Hackathon",
-    "link": "https://hack4brahmaputra.devfolio.co/"
+    "title": "Google Chrome Built-in AI Challenge 2025",
+    "date": "Sep 09 - Nov 01, 2025",
+    "link": "https://googlechromeai2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "CodeUtsava 9.0",
-    "date": "Hackathon",
-    "link": "https://codeutsava-9.devfolio.co/"
+    "title": "GKE Turns 10 Hackathon",
+    "date": "Aug 18 - Sep 22, 2025",
+    "link": "https://gketurns10.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "NASA Space Apps Challenge, Ghaziabad",
-    "date": "Hackathon",
-    "link": "https://nasa-space-apps-gzb.devfolio.co/"
+    "title": "Tableau Next Virtual Hackathon",
+    "date": "Jul 24 - Sep 22, 2025",
+    "link": "https://tableau.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hack to the Future - Kratos'25",
-    "date": "Hackathon",
-    "link": "https://hacktothefuture.devfolio.co/"
+    "title": "AWS AI Agent Global Hackathon",
+    "date": "Sep 08 - Oct 20, 2025",
+    "link": "https://aws-agent-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "HackSpire'25",
-    "date": "Hackathon",
-    "link": "https://hackspire25.devfolio.co/"
+    "title": "Fun and Games with Devvit Web",
+    "date": "Aug 28 - Sep 19, 2025",
+    "link": "https://redditfunandgames.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "KodeKalesh 2025",
-    "date": "Hackathon",
-    "link": "https://kodekalesh-2025.devfolio.co/"
+    "title": "Proof of Concept",
+    "date": "Jul 24 - Sep 19, 2025",
+    "link": "https://proofofconcept.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "HackAura",
-    "date": "Hackathon",
-    "link": "https://hackaura.devfolio.co/"
+    "title": "Baseline Tooling Hackathon",
+    "date": "Sep 02 - Oct 06, 2025",
+    "link": "https://baseline.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "The Big Hack",
-    "date": "Hackathon",
-    "link": "https://the-big-hack.devfolio.co/"
+    "title": "Chroma Awards: AI Film, Music Videos, and Games",
+    "date": "Aug 31 - Nov 04, 2025",
+    "link": "https://chromaawards.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "HackNITR 7.0",
-    "date": "Hackathon",
-    "link": "https://hacknitr7.devfolio.co/"
+    "title": "Storyblok x Code and Coffee Hackathon 2025",
+    "date": "Sep 01 - 30, 2025",
+    "link": "https://storyblok-code-coffee.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "brAInwave 2.0",
-    "date": "Hackathon",
-    "link": "https://brainwave2.devfolio.co/"
+    "title": "IEEE OC Computer Society  AI Dev Hack 2025",
+    "date": "Jun 24 - Sep 21, 2025",
+    "link": "https://ieee-ai-dev-hack-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "MumbaiHacks 2025 - Round 1 (Online)",
-    "date": "Hackathon",
-    "link": "https://mumbaihacks25-round1.devfolio.co/"
+    "title": "Starknet Re{Solve} Hackathon",
+    "date": "Sep 15 - Oct 16, 2025",
+    "link": "https://resolve-starknet.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hack On Hills 7.0",
-    "date": "Hackathon",
-    "link": "https://hackonhills7.devfolio.co/"
+    "title": "Rift Rewind Hackathon",
+    "date": "Sep 15 - Nov 10, 2025",
+    "link": "https://riftrewind.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "NexhackGU",
-    "date": "Hackathon",
-    "link": "https://nexhackgu.devfolio.co/"
+    "title": "AWS AI Hackathon Hong Kong",
+    "date": "Aug 15 - Sep 30, 2025",
+    "link": "https://aws-hong-kong-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "InnoVentrix MR",
-    "date": "Hackathon",
-    "link": "https://innoventrix-mr.devfolio.co/"
+    "title": "Plotly Analytics Vibe-a-Thon",
+    "date": "Sep 15 - Oct 06, 2025",
+    "link": "https://analytics-vibeathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "TrackShift",
-    "date": "Hackathon",
-    "link": "https://trackshift.devfolio.co/"
+    "title": "GNEC Hackathon 2025 Fall - Compete For UN-Affiliated/NGO Internships & Prizes",
+    "date": "Aug 12 - Oct 12, 2025",
+    "link": "https://gnec-hackathon-2025-fall.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "BYTE\\_ RUSH",
-    "date": "Hackathon",
-    "link": "https://byte-rush-1.devfolio.co/"
+    "title": "Youth Coders Hack 2025",
+    "date": "Aug 21 - Oct 26, 2025",
+    "link": "https://youth-coders-hack.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "CodeQuest 2025",
-    "date": "Hackathon",
-    "link": "https://codequest-2025.devfolio.co/"
+    "title": "Green Wells Innovation Hackathon",
+    "date": "Aug 01 - Oct 31, 2025",
+    "link": "https://green-wells-innovation.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hacktropica 2k26",
-    "date": "Hackathon",
-    "link": "https://hacktropica2k26.devfolio.co/"
+    "title": "Hack Your Portfolio",
+    "date": "Jul 12th - 14th",
+    "link": "https://events.mlh.io/events/11296"
   },
   {
-    "title": "Lisk Builders Challenge: Round Three",
-    "date": "Hackathon",
-    "link": "https://lisk-builders-challenge-3.devfolio.co/"
+    "title": "Hack the 6ix",
+    "date": "Aug 2nd - 4th",
+    "link": "https://hackthe6ix.com/"
   },
   {
-    "title": "hackCBS 8.0",
-    "date": "Hackathon",
-    "link": "https://hackcbs-8.devfolio.co/"
+    "title": "Global Hack Week: AI/ML",
+    "date": "Aug 9th - 15th",
+    "link": "https://events.mlh.io/events/11453"
   },
   {
-    "title": "welldoc x SCOPE VIT Chennai",
-    "date": "Hackathon",
-    "link": "https://welldocxscopexvitc.devfolio.co/"
+    "title": "Global Hack Week: Cloud",
+    "date": "Sep 5th - 12th",
+    "link": "https://events.mlh.io/events/11455"
   },
   {
-    "title": "DSU DevHack 2.0",
-    "date": "Hackathon",
-    "link": "https://dsudevhack2.devfolio.co/"
+    "title": "Hack the North",
+    "date": "Sep 13th - 15th",
+    "link": "https://hackthenorth.com/"
   },
   {
-    "title": "HackOdisha 5.0",
-    "date": "Hackathon",
-    "link": "https://hackodisha-4.devfolio.co/"
+    "title": "HopHacks",
+    "date": "Sep 13th - 15th",
+    "link": "https://hophacks.com/"
+  },
+  {
+    "title": "VTHacks",
+    "date": "Sep 13th - 15th",
+    "link": "https://vthacks.com/"
+  },
+  {
+    "title": "HackMTY",
+    "date": "Sep 14th - 15th",
+    "link": "https://hackmty.com/"
+  },
+  {
+    "title": "Hack The Mountains 5.0",
+    "date": "Sep 14th - 15th",
+    "link": "https://hackthemountain.tech/"
+  },
+  {
+    "title": "HackWesTX",
+    "date": "Sep 14th - 15th",
+    "link": "https://www.hackwestx.tech/2024"
+  },
+  {
+    "title": "HackRice 14",
+    "date": "Sep 20th - 22nd",
+    "link": "https://www.hackrice.com/"
+  },
+  {
+    "title": "PennApps",
+    "date": "Sep 20th - 22nd",
+    "link": "https://2024f.pennapps.com/"
+  },
+  {
+    "title": "HackGT 11",
+    "date": "Sep 27th - 29th",
+    "link": "https://hack.gt/"
+  },
+  {
+    "title": "HackTheSpace Season 2",
+    "date": "Sep 27th - 28th",
+    "link": "https://hackthespace.co/"
+  },
+  {
+    "title": "ShellHacks",
+    "date": "Sep 27th - 29th",
+    "link": "https://www.shellhacks.net/"
+  },
+  {
+    "title": "TechNova",
+    "date": "Sep 27th - 29th",
+    "link": "https://itstechnova.org/"
+  },
+  {
+    "title": "GirlHacks",
+    "date": "Sep 28th - 29th",
+    "link": "https://www.girlhacks.tech/"
+  },
+  {
+    "title": "hackUMBC",
+    "date": "Sep 28th - 29th",
+    "link": "https://www.hackumbc.tech/"
+  },
+  {
+    "title": "MHacks 2024",
+    "date": "Sep 28th - 29th",
+    "link": "https://mhacks.org"
+  },
+  {
+    "title": "SteelHacks",
+    "date": "Sep 28th - 29th",
+    "link": "https://steelhacks.com/"
+  },
+  {
+    "title": "sunhacks",
+    "date": "Sep 28th - 29th",
+    "link": "https://sunhacks.io/"
+  },
+  {
+    "title": "VandyHacks",
+    "date": "Sep 28th - 29th",
+    "link": "https://vandyhacks.org/"
+  },
+  {
+    "title": "IdeaHack!",
+    "date": "Oct 3rd - 4th",
+    "link": "https://businessmeetstech.de/"
+  },
+  {
+    "title": "BigRed//Hacks",
+    "date": "Oct 4th - 6th",
+    "link": "https://www.bigredhacks.com/"
+  },
+  {
+    "title": "Global Hack Week: Open Source",
+    "date": "Oct 4th - 10th",
+    "link": "https://events.mlh.io/events/11512"
+  },
+  {
+    "title": "Hack the Valley",
+    "date": "Oct 4th - 6th",
+    "link": "https://hackthevalley.io"
+  },
+  {
+    "title": "Knight Hacks VII",
+    "date": "Oct 4th - 6th",
+    "link": "https://2024.knighthacks.org/"
+  },
+  {
+    "title": "YHack",
+    "date": "Oct 4th - 6th",
+    "link": "https://yhack.org/"
+  },
+  {
+    "title": "DivHacks 2024: Tech for Social Good",
+    "date": "Oct 5th - 6th",
+    "link": "https://www.columbiadivhacks.org/"
+  },
+  {
+    "title": "HackSMU VI",
+    "date": "Oct 5th - 6th",
+    "link": "https://hacksmu.org"
+  },
+  {
+    "title": "Owlhacks",
+    "date": "Oct 5th - 6th",
+    "link": "https://www.owlhacks.com/"
+  },
+  {
+    "title": "StormHacks",
+    "date": "Oct 5th - 6th",
+    "link": "https://stormhacks.com/"
+  },
+  {
+    "title": "HackHarvard",
+    "date": "Oct 11th - 13th",
+    "link": "https://www.hackharvard.io/"
+  },
+  {
+    "title": "Open Source Hackfest",
+    "date": "Oct 11th - 13th",
+    "link": "https://events.mlh.io/events/11515"
+  },
+  {
+    "title": "DubHacks",
+    "date": "Oct 12th - 13th",
+    "link": "https://dh24.dubhacks.co/"
+  },
+  {
+    "title": "Hack Dearborn 3",
+    "date": "Oct 12th - 13th",
+    "link": "https://www.hackdearborn.org/"
+  },
+  {
+    "title": "HackPSU",
+    "date": "Oct 12th - 13th",
+    "link": "https://www.hackpsu.org/"
+  },
+  {
+    "title": "HackUTA 2024",
+    "date": "Oct 12th - 13th",
+    "link": "https://www.hackuta.org/"
+  },
+  {
+    "title": "BYU-I-HACK",
+    "date": "Oct 18th - 19th",
+    "link": "https://byuihack.org"
+  },
+  {
+    "title": "Cal Hacks 11.0",
+    "date": "Oct 18th - 20th",
+    "link": "https://hackberkeley.org/"
+  },
+  {
+    "title": "Make-A-Ton 7.0",
+    "date": "Oct 19th - 20th",
+    "link": "https://makeaton.in/"
+  },
+  {
+    "title": "AI ATL",
+    "date": "Oct 25th - 27th",
+    "link": "https://aiatl.io"
+  },
+  {
+    "title": "HackRU",
+    "date": "Oct 26th - 27th",
+    "link": "https://hackru.org"
+  },
+  {
+    "title": "HackUNT",
+    "date": "Oct 26th - 27th",
+    "link": "https://unthackathon.com"
+  },
+  {
+    "title": "NewHacks 2024",
+    "date": "Oct 26th - 27th",
+    "link": "http://newhacks.ca/"
+  },
+  {
+    "title": "RowdyHacks",
+    "date": "Oct 26th - 27th",
+    "link": "https://rowdyhacks.org/"
+  },
+  {
+    "title": "Technica",
+    "date": "Oct 26th - 27th",
+    "link": "https://gotechnica.org/"
+  },
+  {
+    "title": "TigerHacks",
+    "date": "Nov 1st - 3rd",
+    "link": "https://tigerhacks.missouri.edu/"
+  },
+  {
+    "title": "YCP Hacks",
+    "date": "Nov 1st - 3rd",
+    "link": "https://ycphacks.io"
+  },
+  {
+    "title": "BostonHacks",
+    "date": "Nov 2nd - 3rd",
+    "link": "https://bostonhacks.org"
+  },
+  {
+    "title": "DurHack",
+    "date": "Nov 2nd - 3rd",
+    "link": "https://durhack.com"
+  },
+  {
+    "title": "HACK.COMS",
+    "date": "Nov 2nd - 3rd",
+    "link": "https://hack-coms-24.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "HackNC",
+    "date": "Nov 2nd - 3rd",
+    "link": "https://hacknc.com"
+  },
+  {
+    "title": "HackNJIT 2024",
+    "date": "Nov 2nd - 3rd",
+    "link": "https://hacknjit.org"
+  },
+  {
+    "title": "HackTX",
+    "date": "Nov 2nd - 3rd",
+    "link": "https://hacktx.com/"
+  },
+  {
+    "title": "Global Hack Week: Career",
+    "date": "Nov 8th - 14th",
+    "link": "https://events.mlh.io/events/11595"
+  },
+  {
+    "title": "Hack K-State",
+    "date": "Nov 8th - 10th",
+    "link": "https://hackkstate.tech/"
+  },
+  {
+    "title": "HackPrinceton Fall 2024",
+    "date": "Nov 8th - 10th",
+    "link": "https://hackprinceton.com/"
+  },
+  {
+    "title": "Hack This Fall 2024 (Virtual)",
+    "date": "Nov 8th - 10th",
+    "link": "https://hackathon.hackthisfall.tech/virtual"
+  },
+  {
+    "title": "Hack Trent",
+    "date": "Nov 8th - 10th",
+    "link": "https://hacktrent.ca/"
+  },
+  {
+    "title": "HackUMass XII",
+    "date": "Nov 8th - 10th",
+    "link": "https://hackumass.com"
+  },
+  {
+    "title": "UniHack 6",
+    "date": "Nov 8th - 10th",
+    "link": "https://unihack.eu"
+  },
+  {
+    "title": "GreatUniHack",
+    "date": "Nov 9th - 10th",
+    "link": "https://greatunihack.com"
+  },
+  {
+    "title": "hackCBS",
+    "date": "Nov 9th - 10th",
+    "link": "https://hackcbs.tech/"
+  },
+  {
+    "title": "HackRPI",
+    "date": "Nov 9th - 10th",
+    "link": "https://www.hackrpi.com/"
+  },
+  {
+    "title": "MadHacks",
+    "date": "Nov 9th - 10th",
+    "link": "https://www.madhacks.io/"
+  },
+  {
+    "title": "TAMU Datathon",
+    "date": "Nov 9th - 10th",
+    "link": "https://tamudatathon.com/"
+  },
+  {
+    "title": "UB Hacking",
+    "date": "Nov 9th - 10th",
+    "link": "https://www.ubhacking.com/"
+  },
+  {
+    "title": "WHACK (Wellesley College Hackathon)",
+    "date": "Nov 9th - 10th",
+    "link": "https://www.wellesleyhacks.org/"
+  },
+  {
+    "title": "DandyHacks '24",
+    "date": "Nov 15th - 17th",
+    "link": "https://dandyhacks.net/"
+  },
+  {
+    "title": "HackSheffield 9",
+    "date": "Nov 16th - 17th",
+    "link": "https://hacksheffield.uk"
+  },
+  {
+    "title": "HackUTD",
+    "date": "Nov 16th - 17th",
+    "link": "https://24.hackutd.co/"
+  },
+  {
+    "title": "WesHack",
+    "date": "Nov 16th - 17th",
+    "link": "https://weshack.vercel.app/"
+  },
+  {
+    "title": "Hack Western 11",
+    "date": "Nov 29th - Dec 1st",
+    "link": "https://www.hackwestern.com/"
+  },
+  {
+    "title": "Global Hack Week: Data",
+    "date": "Dec 6th - 12th",
+    "link": "https://events.mlh.io/events/11596"
+  },
+  {
+    "title": "PEC Hacks 2.0",
+    "date": "Dec 28th - 29th",
+    "link": "https://pechacks.org"
+  },
+  {
+    "title": "Hacks for Hackers",
+    "date": "Jan 3rd - 5th",
+    "link": "https://events.mlh.io/events/11516"
+  },
+  {
+    "title": "Semicolon",
+    "date": "Jan 3rd - 5th",
+    "link": "https://semciolon.vercel.app/"
+  },
+  {
+    "title": "Global Hack Week: Beginners",
+    "date": "Jan 10th - 16th",
+    "link": "https://events.mlh.io/events/11842"
+  },
+  {
+    "title": "SheHacks+",
+    "date": "Jan 10th - 12th",
+    "link": "https://www.shehacks.ca/"
+  },
+  {
+    "title": "DeltaHacks",
+    "date": "Jan 11th - 12th",
+    "link": "https://deltahacks.com/"
+  },
+  {
+    "title": "SB Hacks XI",
+    "date": "Jan 11th - 12th",
+    "link": "https://www.sbhacks.com/"
+  },
+  {
+    "title": "Goat Hacks 2025",
+    "date": "Jan 17th - 19th",
+    "link": "https://hack.wpi.edu/index.html"
+  },
+  {
+    "title": "Hackville",
+    "date": "Jan 17th - 19th",
+    "link": "https://www.hackville.io/"
+  },
+  {
+    "title": "UofTHacks 12",
+    "date": "Jan 17th - 19th",
+    "link": "https://uofthacks.com/"
+  },
+  {
+    "title": "uOttaHack 7",
+    "date": "Jan 17th - 19th",
+    "link": "https://2025.uottahack.ca/"
+  },
+  {
+    "title": "Hack BI",
+    "date": "Jan 18th - 19th",
+    "link": "https://hackbi.org/"
+  },
+  {
+    "title": "nwHacks 2025",
+    "date": "Jan 18th - 19th",
+    "link": "https://nwhacks.io/"
+  },
+  {
+    "title": "Hoya Hacks",
+    "date": "Jan 24th - 26th",
+    "link": "https://www.hoyahacks.com/"
+  },
+  {
+    "title": "QHacks",
+    "date": "Jan 24th - 26th",
+    "link": "https://qhacks.io"
+  },
+  {
+    "title": "SwampHacks X",
+    "date": "Jan 24th - 26th",
+    "link": "https://swamphacks.com"
+  },
+  {
+    "title": "InnovateHer",
+    "date": "Jan 25th - 26th",
+    "link": "https://innovateherhacks.my.canva.site"
+  },
+  {
+    "title": "McHacks",
+    "date": "Jan 25th - 26th",
+    "link": "https://mchacks.ca/"
+  },
+  {
+    "title": "Rose Hack 2025",
+    "date": "Jan 25th - 26th",
+    "link": "https://www.rosehack.com/"
+  },
+  {
+    "title": "TAMUhack",
+    "date": "Jan 25th - 26th",
+    "link": "https://th25.tamuhack.org/"
+  },
+  {
+    "title": "Hack@Davidson",
+    "date": "Jan 31st - Feb 2nd",
+    "link": "https://hackatdavidson.com/"
+  },
+  {
+    "title": "Rice Datathon 2025",
+    "date": "Jan 31st - Feb 2nd",
+    "link": "https://datathon.rice.edu/"
+  },
+  {
+    "title": "ConUHacks",
+    "date": "Feb 1st - 2nd",
+    "link": "https://conuhacks.io/"
+  },
+  {
+    "title": "Hack@Brown",
+    "date": "Feb 1st - 2nd",
+    "link": "https://hackatbrown.org/"
+  },
+  {
+    "title": "HackViolet",
+    "date": "Feb 1st - 2nd",
+    "link": "https://www.hackviolet.com/"
+  },
+  {
+    "title": "QWER Hacks",
+    "date": "Feb 1st - 2nd",
+    "link": "https://qwerhacks.com"
+  },
+  {
+    "title": "SpartaHack X",
+    "date": "Feb 1st - 2nd",
+    "link": "https://spartahack.com/"
+  },
+  {
+    "title": "UTRA Hacks",
+    "date": "Feb 1st - 2nd",
+    "link": "https://hackathon.utra.ca/"
+  },
+  {
+    "title": "FemmeHacks 2025",
+    "date": "Feb 7th - 8th",
+    "link": "https://www.femmehacks.io/"
+  },
+  {
+    "title": "Global Hack Week: AI/ML",
+    "date": "Feb 7th - 13th",
+    "link": "https://events.mlh.io/events/12026"
+  },
+  {
+    "title": "TartanHacks",
+    "date": "Feb 7th - 8th",
+    "link": "https://tartanhacks.com/"
+  },
+  {
+    "title": "UGAHacks X",
+    "date": "Feb 7th - 9th",
+    "link": "https://x.ugahacks.com/"
+  },
+  {
+    "title": "WiNGHacks 2025",
+    "date": "Feb 7th - 9th",
+    "link": "https://www.winghacks.com/"
+  },
+  {
+    "title": "DevFest",
+    "date": "Feb 8th - 9th",
+    "link": "https://2025.devfestcu.com/"
+  },
+  {
+    "title": "HackDuke",
+    "date": "Feb 8th - 9th",
+    "link": "https://hackduke.org/"
+  },
+  {
+    "title": "HackHERS 2025",
+    "date": "Feb 8th - 9th",
+    "link": "https://ruhackhers.org"
+  },
+  {
+    "title": "Hack_NCState",
+    "date": "Feb 8th - 9th",
+    "link": "https://hackncstate.org"
+  },
+  {
+    "title": "HackNYU",
+    "date": "Feb 8th - 9th",
+    "link": "https://hacknyu.org/2025/"
+  },
+  {
+    "title": "HackTU",
+    "date": "Feb 8th - 9th",
+    "link": "https://hacktu.ccstiet.com/"
+  },
+  {
+    "title": "Royal Hackaway",
+    "date": "Feb 8th - 9th",
+    "link": "https://www.royalhackaway.com/"
+  },
+  {
+    "title": "ElleHacks",
+    "date": "Feb 14th - 16th",
+    "link": "https://ellehacks.com/"
+  },
+  {
+    "title": "CrimsonCode Hackathon 2025",
+    "date": "Feb 15th - 16th",
+    "link": "https://crimsoncode-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Hack(H)er413",
+    "date": "Feb 15th - 16th",
+    "link": "https://www.hackher413.com/"
+  },
+  {
+    "title": "Hacklahoma",
+    "date": "Feb 15th - 16th",
+    "link": "https://2025.hacklahoma.org/"
+  },
+  {
+    "title": "Kent Hack Enough",
+    "date": "Feb 15th - 16th",
+    "link": "https://khe.io/"
+  },
+  {
+    "title": "MakeUofT 2025",
+    "date": "Feb 15th - 16th",
+    "link": "https://makeuoft.ca/"
+  },
+  {
+    "title": "Pearl Hacks",
+    "date": "Feb 15th - 16th",
+    "link": "https://pearlhacks.com/"
+  },
+  {
+    "title": "BoilerMake",
+    "date": "Feb 21st - 23rd",
+    "link": "https://boilermake.org/2025"
+  },
+  {
+    "title": "Code Kshetra 2.0",
+    "date": "Feb 21st - 22nd",
+    "link": "https://codekshetra2.geekroom.in"
+  },
+  {
+    "title": "Hacklytics",
+    "date": "Feb 21st - 23rd",
+    "link": "https://hacklytics.io/"
+  },
+  {
+    "title": "BrickHack 11",
+    "date": "Feb 22nd - 23rd",
+    "link": "https://brickhack.io"
+  },
+  {
+    "title": "Diversion 2K25",
+    "date": "Feb 22nd - 23rd",
+    "link": "https://diversion.tech"
+  },
+  {
+    "title": "HackTCNJ",
+    "date": "Feb 22nd - 23rd",
+    "link": "https://www.hacktcnj.com/"
+  },
+  {
+    "title": "Tech For Change - Civic Hacks",
+    "date": "Feb 22nd - 23rd",
+    "link": "https://civic-hacks.com/"
+  },
+  {
+    "title": "Hackhound 3.O",
+    "date": "Feb 27th - 28th",
+    "link": "https://www.hackhound.xyz"
+  },
+  {
+    "title": "PickHacks",
+    "date": "Feb 28th - Mar 2nd",
+    "link": "https://www.pickhacks.io/"
+  },
+  {
+    "title": "SproutHacks",
+    "date": "Feb 28th - Mar 2nd",
+    "link": "https://sprouthacks.ca"
+  },
+  {
+    "title": "AthenaHacks",
+    "date": "Mar 1st - 2nd",
+    "link": "https://athenahacks.com/"
+  },
+  {
+    "title": "DUWiT Hacks",
+    "date": "Mar 1st - 2nd",
+    "link": "https://www.duwithacks.com/"
+  },
+  {
+    "title": "HenHacks Hackathon",
+    "date": "Mar 1st - 2nd",
+    "link": "https://www.henhackshackathon.com/"
+  },
+  {
+    "title": "RevolutionUC",
+    "date": "Mar 1st - 2nd",
+    "link": "https://revolutionuc.com"
+  },
+  {
+    "title": "WiCHacks",
+    "date": "Mar 1st - 2nd",
+    "link": "https://wichacks.io/"
+  },
+  {
+    "title": "Electrothon: Colosseum of Code",
+    "date": "Mar 7th - 9th",
+    "link": "https://electrothon.nith.ac.in/"
+  },
+  {
+    "title": "Global Hack Week: Cloud",
+    "date": "Mar 7th - 13th",
+    "link": "https://events.mlh.io/events/12083"
+  },
+  {
+    "title": "HackMerced",
+    "date": "Mar 7th - 9th",
+    "link": "https://hackmerced.com/"
+  },
+  {
+    "title": "cmd-f 2025",
+    "date": "Mar 8th - 9th",
+    "link": "https://cmd-f.nwplus.io/"
+  },
+  {
+    "title": "UdeMHacks",
+    "date": "Mar 8th - 9th",
+    "link": "https://www.udemhacks.com/"
+  },
+  {
+    "title": "cuHacking",
+    "date": "Mar 14th - 16th",
+    "link": "https://cuhacking.ca"
+  },
+  {
+    "title": "RocketHacks",
+    "date": "Mar 15th - 16th",
+    "link": "https://www.rockethacks.org/"
+  },
+  {
+    "title": "BisonBytes",
+    "date": "Mar 22nd - 23rd",
+    "link": "https://bisonbytes.org/"
+  },
+  {
+    "title": "GrizzHacks 7",
+    "date": "Mar 22nd - 23rd",
+    "link": "https://www.grizzhacks.org/"
+  },
+  {
+    "title": "Hack New Haven",
+    "date": "Mar 22nd - 23rd",
+    "link": "https://hacknewhaven.newhaven.edu/"
+  },
+  {
+    "title": "TidalHack",
+    "date": "Mar 22nd - 23rd",
+    "link": "https://tidaltamu.com/"
+  },
+  {
+    "title": "Hackathon Troyano 2025",
+    "date": "Mar 28th - 29th",
+    "link": "https://hackathon.fif-uaq.mx/"
+  },
+  {
+    "title": "HackPrinceton",
+    "date": "Mar 28th - 30th",
+    "link": "https://www.hackprinceton.com/"
+  },
+  {
+    "title": "HackPSU",
+    "date": "Mar 29th - 30th",
+    "link": "https://hackpsu.org/"
+  },
+  {
+    "title": "HooHacks",
+    "date": "Mar 29th - 30th",
+    "link": "https://hoohacks.io/"
+  },
+  {
+    "title": "ProfHacks",
+    "date": "Mar 29th - 30th",
+    "link": "https://profhacks.rowanieee.org/"
+  },
+  {
+    "title": "The Midwest Block-a-Thon",
+    "date": "Mar 29th - 30th",
+    "link": "http://hack.kublockchain.com"
+  },
+  {
+    "title": "Uncommon Hacks",
+    "date": "Mar 29th - 30th",
+    "link": "https://uncommonhacks.com/"
+  },
+  {
+    "title": "DevsHouse '25",
+    "date": "Apr 4th - 6th",
+    "link": "https://www.devshouse.in"
+  },
+  {
+    "title": "HackByte",
+    "date": "Apr 4th - 6th",
+    "link": "https://hackbyte.in"
+  },
+  {
+    "title": "HackKU",
+    "date": "Apr 4th - 6th",
+    "link": "https://hackku.org"
+  },
+  {
+    "title": "ImmerseGT",
+    "date": "Apr 4th - 6th",
+    "link": "https://www.immersegt.org/"
+  },
+  {
+    "title": "MariHacks",
+    "date": "Apr 4th - 5th",
+    "link": "https://www.marihacks.com/"
+  },
+  {
+    "title": "SFHacks 2025",
+    "date": "Apr 4th - 6th",
+    "link": "https://sfhacks.io/"
+  },
+  {
+    "title": "DiamondHacks",
+    "date": "Apr 5th - 6th",
+    "link": "https://diamondhacks.acmucsd.com/"
+  },
+  {
+    "title": "Los Altos Hacks",
+    "date": "Apr 5th - 6th",
+    "link": "https://www.losaltoshacks.com/"
+  },
+  {
+    "title": "SharkHack",
+    "date": "Apr 5th - 6th",
+    "link": "https://sharkhack.simmons.edu/"
+  },
+  {
+    "title": "WEHack",
+    "date": "Apr 5th - 6th",
+    "link": "https://wehackutd.com/"
+  },
+  {
+    "title": "WildHacks",
+    "date": "Apr 5th - 6th",
+    "link": "https://www.wildhacks.net/"
+  },
+  {
+    "title": "AI Hackfest",
+    "date": "Apr 11th - 13th",
+    "link": "https://events.mlh.io/events/12084"
+  },
+  {
+    "title": "Bitcamp 2025",
+    "date": "Apr 11th - 13th",
+    "link": "https://bit.camp/"
+  },
+  {
+    "title": "Bit Hacks",
+    "date": "Apr 11th - 13th",
+    "link": "https://www.ucibithacks.com/"
+  },
+  {
+    "title": "CruzHacks",
+    "date": "Apr 11th - 13th",
+    "link": "https://cruzhacks.com"
+  },
+  {
+    "title": "DragonHack",
+    "date": "Apr 11th - 13th",
+    "link": "https://dragonhack.si/"
+  },
+  {
+    "title": "Global Hack Week: API",
+    "date": "Apr 11th - 17th",
+    "link": "https://events.mlh.io/events/12179-global-hack-week-api-week?_gl=1*1sxqt0x*_ga*MTM3MzkyODM4Ny4xNzI5MTgxMzI4*_ga_E5KT6TC4TK*MTczODIzNzMyMS4yMzYuMS4xNzM4MjM4Mzg0LjAuMC4w"
+  },
+  {
+    "title": "Hackabull",
+    "date": "Apr 12th - 13th",
+    "link": "https://www.hackabull.org/"
+  },
+  {
+    "title": "UTA Datathon",
+    "date": "Apr 12th - 13th",
+    "link": "https://www.utadatathon.com"
+  },
+  {
+    "title": "HackDavis",
+    "date": "Apr 19th - 20th",
+    "link": "https://hackdavis.io/"
+  },
+  {
+    "title": "Hacktech by Caltech",
+    "date": "Apr 25th - 27th",
+    "link": "https://hack.caltech.edu"
+  },
+  {
+    "title": "LA Hacks",
+    "date": "Apr 25th - 27th",
+    "link": "https://lahacks.com/home"
+  },
+  {
+    "title": "DragonHacks 11",
+    "date": "Apr 26th - 27th",
+    "link": "https://dragonhacks.org/"
+  },
+  {
+    "title": "HackDartmouth",
+    "date": "Apr 26th - 27th",
+    "link": "https://www.hack-dartmouth.org/"
+  },
+  {
+    "title": "JACHacks",
+    "date": "Apr 26th - 27th",
+    "link": "https://jachacks.pages.dev"
+  },
+  {
+    "title": "MorganHacks",
+    "date": "Apr 26th - 27th",
+    "link": "https://morganhacks.com/"
+  },
+  {
+    "title": "GDSC Hacks",
+    "date": "May 2nd - 4th",
+    "link": "https://www.gdschacks.com/"
+  },
+  {
+    "title": "HackUPC",
+    "date": "May 2nd - 4th",
+    "link": "https://hackupc.com/"
+  },
+  {
+    "title": "Global Hack Week: Open Source",
+    "date": "May 9th - 15th",
+    "link": "https://events.mlh.io/events/12300"
+  },
+  {
+    "title": "HACKMESA",
+    "date": "May 9th - 10th",
+    "link": "https://hackmesa.com/"
+  },
+  {
+    "title": "DesignVerse at UCR",
+    "date": "May 10th - 11th",
+    "link": "https://www.designverseucr.org/"
+  },
+  {
+    "title": "JAMHacks 9",
+    "date": "May 16th - 18th",
+    "link": "https://www.jamhacks.ca/"
+  },
+  {
+    "title": "NMIT HACKS 2025",
+    "date": "May 16th - 18th",
+    "link": "https://nmithacks.com/"
+  },
+  {
+    "title": "MasseyHacks",
+    "date": "May 17th - 18th",
+    "link": "https://masseyhacks.ca/"
+  },
+  {
+    "title": "Global Hack Week: GenAI",
+    "date": "Jun 13th - 19th",
+    "link": "https://events.mlh.io/events/12402"
+  },
+  {
+    "title": "Hack 4 Her",
+    "date": "Jun 14th - 15th",
+    "link": "https://wit-mty.vercel.app/hack4her"
+  },
+  {
+    "title": "Hack4Bengal 4.0",
+    "date": "Jun 20th - 22nd",
+    "link": "https://www.hack4bengal.tech/"
+  },
+  {
+    "title": "SpurHacks",
+    "date": "Jun 20th - 22nd",
+    "link": "https://spurhacks.com"
+  },
+  {
+    "title": "GDG Solution Hacks",
+    "date": "Jun 27th - 29th",
+    "link": "https://thesolutionhacks.site/"
   }
 ]
