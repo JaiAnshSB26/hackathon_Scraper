@@ -2,62 +2,99 @@
 // https://<user>.github.io/<repo>/ (absolute paths starting with '/' break
 // when the site is hosted under a repo subpath).
 const DATA_PATH = 'scraper_flask/data/hackathons.json';
-
-// Fallback: if running on raw.githubusercontent or a different host, use the
-// raw URL so the page still loads (useful for local previews or different hosts).
 const RAW_FALLBACK = `https://raw.githubusercontent.com/JaiAnshSB26/hackathon_Scraper/main/scraper_flask/data/hackathons.json`;
 
-async function loadData(){
-  const status = document.getElementById('status');
-  const list = document.getElementById('list');
+let ALL = [];
+let VISIBLE = [];
+let PAGE = 0;
+const PAGE_SIZE = 24;
+
+function $id(id){return document.getElementById(id)}
+
+function setStatus(text){$id('status').textContent = text}
+
+async function fetchJSON(){
+  setStatus('Fetching data...');
   try{
-    status.textContent = 'Fetching JSON...';
-    let res = await fetch(DATA_PATH, {cache: 'no-store'});
-    // If page is served from a host where the relative path is not present,
-    // attempt a fallback to the raw GitHub content.
-    if (!res.ok) {
-      console.warn('Primary data fetch failed, trying raw fallback:', res.status);
-      res = await fetch(RAW_FALLBACK, {cache: 'no-store'});
-    }
-    if(!res.ok) throw new Error('HTTP ' + res.status);
+    let res = await fetch(DATA_PATH, {cache:'no-store'});
+    if(!res.ok) res = await fetch(RAW_FALLBACK, {cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
     const data = await res.json();
-    status.textContent = `Loaded ${data.length} entries`;
-    renderList(data);
-  }catch(e){
-    console.error(e);
-    status.textContent = 'Failed to load data — check path or run the workflow';
+    ALL = Array.isArray(data) ? data : [];
+    setStatus(`Loaded ${ALL.length} entries`);
+    applyFiltersAndRender();
+  }catch(err){
+    console.error(err);
+    setStatus('Failed to load data — check workflow or JSON path');
   }
 }
 
-function renderList(items){
-  const list = document.getElementById('list');
-  list.innerHTML = '';
+function renderCards(items, append=false){
+  const grid = $id('grid');
+  if(!append) grid.innerHTML = '';
+  if(items.length === 0 && !append){
+    grid.innerHTML = '<div class="card"><p>No hackathons found.</p></div>';
+    return;
+  }
+
   items.forEach(h => {
-    const li = document.createElement('li');
-    li.className = 'hackathon';
+    const card = document.createElement('article');
+    card.className = 'card';
     const title = document.createElement('h3');
     title.textContent = h.title || 'Untitled';
-    const date = document.createElement('div');
-    date.textContent = h.date || '';
+    const meta = document.createElement('div');
+    meta.className = 'meta';
+    meta.textContent = h.date || '';
+    const desc = document.createElement('p');
+    desc.textContent = h.description || '';
     const a = document.createElement('a');
+    a.className = 'btn';
     a.href = h.link || '#';
     a.textContent = 'Open';
     a.target = '_blank';
-    li.appendChild(title);
-    li.appendChild(date);
-    li.appendChild(a);
-    list.appendChild(li);
+
+    card.appendChild(title);
+    card.appendChild(meta);
+    if(desc.textContent) card.appendChild(desc);
+    card.appendChild(a);
+    grid.appendChild(card);
   });
 }
 
-// search
-document.getElementById('search').addEventListener('input', function(e){
-  const q = e.target.value.toLowerCase();
-  const all = Array.from(document.querySelectorAll('.hackathon'));
-  all.forEach(el => {
-    const text = el.innerText.toLowerCase();
-    el.style.display = text.includes(q) ? '' : 'none';
-  });
-});
+function applyFiltersAndRender(){
+  const q = $id('search').value.trim().toLowerCase();
+  const sort = $id('sort').value;
 
-loadData();
+  VISIBLE = ALL.filter(h => {
+    if(!q) return true;
+    const hay = `${h.title || ''} ${h.date || ''} ${h.link || ''}`.toLowerCase();
+    return hay.includes(q);
+  });
+
+  if(sort === 'alpha') VISIBLE.sort((a,b)=> (a.title||'').localeCompare(b.title||''));
+  else if(sort === 'oldest') VISIBLE.reverse();
+  else VISIBLE = VISIBLE; // newest as-is (data order)
+
+  PAGE = 0;
+  renderPage();
+  $id('counts').textContent = `${VISIBLE.length} results`;
+}
+
+function renderPage(){
+  const start = PAGE * PAGE_SIZE;
+  const end = start + PAGE_SIZE;
+  const pageItems = VISIBLE.slice(start, end);
+  const append = PAGE > 0;
+  renderCards(pageItems, append);
+  $id('loadMore').style.display = end < VISIBLE.length ? '' : 'none';
+}
+
+document.getElementById('loadMore').addEventListener('click', ()=>{ PAGE++; renderPage(); });
+
+// debounce helper
+function debounce(fn, wait=250){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), wait); }}
+
+document.getElementById('search').addEventListener('input', debounce(applyFiltersAndRender, 200));
+document.getElementById('sort').addEventListener('change', applyFiltersAndRender);
+
+fetchJSON();
