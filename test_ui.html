@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UI Test Results</title>
+    <style>
+        body { font-family: system-ui; padding: 20px; background: #f5f5f5; }
+        .test { margin: 10px 0; padding: 10px; background: white; border-radius: 5px; }
+        .pass { border-left: 4px solid #22c55e; }
+        .fail { border-left: 4px solid #ef4444; }
+    </style>
+</head>
+<body>
+    <h1>Dark Theme UI Test Results</h1>
+    
+    <div class="test pass">
+        ✅ <strong>Local Server:</strong> Running on http://localhost:8000
+    </div>
+    
+    <div class="test pass">
+        ✅ <strong>Test URL:</strong> <a href="http://localhost:8000/docs/index.html" target="_blank">http://localhost:8000/docs/index.html</a>
+    </div>
+    
+    <h2>Features to Test:</h2>
+    <div class="test">
+        🎨 <strong>Dark Theme:</strong> Page should have dark gradient background (purple/blue)
+    </div>
+    <div class="test">
+        📱 <strong>Responsive Cards:</strong> Hackathon items in glassmorphism cards with hover effects
+    </div>
+    <div class="test">
+        🔍 <strong>Search:</strong> Real-time filtering with debounced input
+    </div>
+    <div class="test">
+        📊 <strong>Sort Options:</strong> Dropdown to sort by Newest/Oldest/A-Z
+    </div>
+    <div class="test">
+        📄 <strong>Pagination:</strong> "Load more" button reveals additional cards
+    </div>
+    <div class="test">
+        🌊 <strong>Scroll Effects:</strong> Background gradient shifts as you scroll down
+    </div>
+    <div class="test">
+        ✨ <strong>Animations:</strong> Cards fade in with staggered timing
+    </div>
+    
+    <h2>Manual Test Steps:</h2>
+    <ol>
+        <li>Open the test URL above</li>
+        <li>Verify dark theme with gradient background</li>
+        <li>Check if cards load (if JSON exists) or shows "No hackathons found"</li>
+        <li>Test search functionality</li>
+        <li>Try different sort options</li>
+        <li>Click "Load more" if available</li>
+        <li>Scroll up/down to see gradient transition</li>
+        <li>Test mobile responsiveness (resize browser)</li>
+    </ol>
+    
+    <p><em>Note: If no JSON data loads, the design should still be visible with the "No hackathons found" message in a card.</em></p>
+</body>
+</html>

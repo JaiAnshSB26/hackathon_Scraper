@@ -89,7 +89,69 @@ function renderPage(){
   $id('loadMore').style.display = end < VISIBLE.length ? '' : 'none';
 }
 
-document.getElementById('loadMore').addEventListener('click', ()=>{ PAGE++; renderPage(); });
+document.getElementById('loadMore').addEventListener('click', ()=>{ 
+  PAGE++; 
+  renderPage(); 
+  // Smooth scroll to new content after a brief delay
+  setTimeout(()=> {
+    const cards = document.querySelectorAll('.card');
+    if(cards.length > PAGE_SIZE) {
+      const targetCard = cards[PAGE * PAGE_SIZE];
+      if(targetCard) {
+        targetCard.scrollIntoView({behavior:'smooth', block:'start'});
+      }
+    }
+  }, 150);
+});
+
+// Enhanced scroll effects for gradient transitions
+let scrollTimeout;
+function handleScroll(){
+  const scrollY = window.scrollY;
+  const threshold = 200;
+  
+  if(scrollY > threshold) {
+    document.body.classList.add('scrolled');
+  } else {
+    document.body.classList.remove('scrolled');
+  }
+  
+  // Add subtle parallax effect to header
+  const header = document.querySelector('.site-header');
+  if(header && scrollY < 400) {
+    header.style.transform = `translateY(${scrollY * 0.3}px)`;
+    header.style.opacity = Math.max(0.3, 1 - scrollY / 600);
+  }
+}
+
+window.addEventListener('scroll', ()=> {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(handleScroll, 10);
+});
+
+// Add card animation on render
+function animateCards(){
+  const cards = document.querySelectorAll('.card');
+  cards.forEach((card, i) => {
+    if(!card.classList.contains('animated')) {
+      card.style.opacity = '0';
+      card.style.transform = 'translateY(20px)';
+      setTimeout(()=> {
+        card.style.transition = 'all 0.5s ease';
+        card.style.opacity = '1';
+        card.style.transform = 'translateY(0)';
+        card.classList.add('animated');
+      }, i * 50);
+    }
+  });
+}
+
+// Override renderCards to include animations
+const originalRenderCards = renderCards;
+renderCards = function(items, append=false) {
+  originalRenderCards(items, append);
+  setTimeout(animateCards, 50);
+};
 
 // debounce helper
 function debounce(fn, wait=250){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), wait); }}
