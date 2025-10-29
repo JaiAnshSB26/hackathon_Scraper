@@ -1,5 +1,160 @@
 [
   {
+    "title": "Base Batches 002: Start-up Track",
+    "date": "Featured",
+    "link": "https://base-batches-startup-track.devfolio.co/"
+  },
+  {
+    "title": "Base Batches 002: Builder Track",
+    "date": "Featured",
+    "link": "https://base-batches-builder-track.devfolio.co/"
+  },
+  {
+    "title": "AI x Filmmaking Festival",
+    "date": "Featured",
+    "link": "https://ai-filmmaking-festival.devfolio.co/"
+  },
+  {
+    "title": "Octant DeFi Hackathon 2025",
+    "date": "Featured",
+    "link": "https://octant.devfolio.co/"
+  },
+  {
+    "title": "Hack On Hills 7.0",
+    "date": "Hackathon",
+    "link": "https://hackonhills7.devfolio.co/"
+  },
+  {
+    "title": "BYTE\\_ RUSH",
+    "date": "Hackathon",
+    "link": "https://byte-rush-1.devfolio.co/"
+  },
+  {
+    "title": "PEC Hacks 3.0",
+    "date": "Hackathon",
+    "link": "https://pechacks3.devfolio.co/"
+  },
+  {
+    "title": "KodeKalesh 2025",
+    "date": "Hackathon",
+    "link": "https://kodekalesh-2025.devfolio.co/"
+  },
+  {
+    "title": "CodeUtsava 9.0",
+    "date": "Hackathon",
+    "link": "https://codeutsava-9.devfolio.co/"
+  },
+  {
+    "title": "hackCBS 8.0",
+    "date": "Hackathon",
+    "link": "https://hackcbs-8.devfolio.co/"
+  },
+  {
+    "title": "IEEE ML presents: The Spark",
+    "date": "Hackathon",
+    "link": "https://ieee-ml-presents-the-spark.devfolio.co/"
+  },
+  {
+    "title": "SatHack 2025",
+    "date": "Hackathon",
+    "link": "https://sathack.devfolio.co/"
+  },
+  {
+    "title": "Hack-a-Sol 2025",
+    "date": "Hackathon",
+    "link": "https://hackasol-4.devfolio.co/"
+  },
+  {
+    "title": "Hack with Stack",
+    "date": "Hackathon",
+    "link": "https://hack-with-stack.devfolio.co/"
+  },
+  {
+    "title": "The Big Hack",
+    "date": "Hackathon",
+    "link": "https://the-big-hack.devfolio.co/"
+  },
+  {
+    "title": "Hacknauts",
+    "date": "Hackathon",
+    "link": "https://hacknauts.devfolio.co/"
+  },
+  {
+    "title": "TCU Verse",
+    "date": "Hackathon",
+    "link": "https://tcu-hack-verse.devfolio.co/"
+  },
+  {
+    "title": "HackNITR 7.0",
+    "date": "Hackathon",
+    "link": "https://hacknitr7.devfolio.co/"
+  },
+  {
+    "title": "Technocrats Hackathon",
+    "date": "Hackathon",
+    "link": "https://technocrats-hackathon.devfolio.co/"
+  },
+  {
+    "title": "𝙂𝙇𝙔𝙏𝘾𝙃",
+    "date": "Hackathon",
+    "link": "https://glytch.devfolio.co/"
+  },
+  {
+    "title": "Calcutta <Hacks/>",
+    "date": "Hackathon",
+    "link": "https://calcutta-lesshacksgreater.devfolio.co/"
+  },
+  {
+    "title": "Hack This Fall 2025 - Milestone Edition",
+    "date": "Hackathon",
+    "link": "https://hackthisfall.devfolio.co/"
+  },
+  {
+    "title": "Devfolio Student Hackathon Grants",
+    "date": "Grants",
+    "link": "https://devfolio-student-hackathon-grants.devfolio.co/"
+  },
+  {
+    "title": "Code Kalari",
+    "date": "Hackathon",
+    "link": "https://code-kalari.devfolio.co/"
+  },
+  {
+    "title": "Hacktropica 2k26",
+    "date": "Hackathon",
+    "link": "https://hacktropica2k26.devfolio.co/"
+  },
+  {
+    "title": "Diversion 2K26",
+    "date": "Hackathon",
+    "link": "https://diversion2k26.devfolio.co/"
+  },
+  {
+    "title": "Mahiber Connect Hackathon",
+    "date": "Hackathon",
+    "link": "https://mahiber-connect-hackathon.devfolio.co/"
+  },
+  {
+    "title": "Hack A Cure",
+    "date": "Hackathon",
+    "link": "https://hack-a-cure.devfolio.co/"
+  },
+  {
+    "title": "VØID:V1",
+    "date": "Hackathon",
+    "link": "https://voidv1.devfolio.co/"
+  },
+  {
+    "title": "BruteForce",
+    "date": "Hackathon",
+    "link": "https://bruteforce.devfolio.co/"
+  },
+  {
+    "title": "Sleepless Coding Saga 3.0",
+    "date": "Hackathon",
+    "link": "https://sleepless-coding-saga-2-de03.devfolio.co/"
+  },
+  {
     "title": "Hack Your Portfolio",
     "date": "Jul 12th - 14th",
     "link": "https://events.mlh.io/events/11296"
@@ -970,151 +1125,6 @@
     "link": "https://thesolutionhacks.site/"
   },
   {
-    "title": "Base Batches 002: Start-up Track",
-    "date": "Featured",
-    "link": "https://base-batches-startup-track.devfolio.co/"
-  },
-  {
-    "title": "Base Batches 002: Builder Track",
-    "date": "Featured",
-    "link": "https://base-batches-builder-track.devfolio.co/"
-  },
-  {
-    "title": "AI x Filmmaking Festival",
-    "date": "Featured",
-    "link": "https://ai-filmmaking-festival.devfolio.co/"
-  },
-  {
-    "title": "Octant DeFi Hackathon 2025",
-    "date": "Featured",
-    "link": "https://octant.devfolio.co/"
-  },
-  {
-    "title": "Hack4Safety",
-    "date": "Hackathon",
-    "link": "https://hack4safety.devfolio.co/"
-  },
-  {
-    "title": "Devfolio Tryouts",
-    "date": "Hackathon",
-    "link": "https://tryouts.devfolio.co/"
-  },
-  {
-    "title": "BYTE\\_ RUSH",
-    "date": "Hackathon",
-    "link": "https://byte-rush-1.devfolio.co/"
-  },
-  {
-    "title": "The Big Hack",
-    "date": "Hackathon",
-    "link": "https://the-big-hack.devfolio.co/"
-  },
-  {
-    "title": "PEC Hacks 3.0",
-    "date": "Hackathon",
-    "link": "https://pechacks3.devfolio.co/"
-  },
-  {
-    "title": "Hack On Hills 7.0",
-    "date": "Hackathon",
-    "link": "https://hackonhills7.devfolio.co/"
-  },
-  {
-    "title": "SatHack 2025",
-    "date": "Hackathon",
-    "link": "https://sathack.devfolio.co/"
-  },
-  {
-    "title": "KodeKalesh 2025",
-    "date": "Hackathon",
-    "link": "https://kodekalesh-2025.devfolio.co/"
-  },
-  {
-    "title": "CodeUtsava 9.0",
-    "date": "Hackathon",
-    "link": "https://codeutsava-9.devfolio.co/"
-  },
-  {
-    "title": "hackCBS 8.0",
-    "date": "Hackathon",
-    "link": "https://hackcbs-8.devfolio.co/"
-  },
-  {
-    "title": "IEEE ML presents: The Spark",
-    "date": "Hackathon",
-    "link": "https://ieee-ml-presents-the-spark.devfolio.co/"
-  },
-  {
-    "title": "Hack with Stack",
-    "date": "Hackathon",
-    "link": "https://hack-with-stack.devfolio.co/"
-  },
-  {
-    "title": "Hack-a-Sol 2025",
-    "date": "Hackathon",
-    "link": "https://hackasol-4.devfolio.co/"
-  },
-  {
-    "title": "Hacknauts",
-    "date": "Hackathon",
-    "link": "https://hacknauts.devfolio.co/"
-  },
-  {
-    "title": "TCU Verse",
-    "date": "Hackathon",
-    "link": "https://tcu-hack-verse.devfolio.co/"
-  },
-  {
-    "title": "HackNITR 7.0",
-    "date": "Hackathon",
-    "link": "https://hacknitr7.devfolio.co/"
-  },
-  {
-    "title": "Technocrats Hackathon",
-    "date": "Hackathon",
-    "link": "https://technocrats-hackathon.devfolio.co/"
-  },
-  {
-    "title": "𝙂𝙇𝙔𝙏𝘾𝙃",
-    "date": "Hackathon",
-    "link": "https://glytch.devfolio.co/"
-  },
-  {
-    "title": "Hack This Fall 2025 - Milestone Edition",
-    "date": "Hackathon",
-    "link": "https://hackthisfall.devfolio.co/"
-  },
-  {
-    "title": "Code Kalari",
-    "date": "Hackathon",
-    "link": "https://code-kalari.devfolio.co/"
-  },
-  {
-    "title": "Hacktropica 2k26",
-    "date": "Hackathon",
-    "link": "https://hacktropica2k26.devfolio.co/"
-  },
-  {
-    "title": "Diversion 2K26",
-    "date": "Hackathon",
-    "link": "https://diversion2k26.devfolio.co/"
-  },
-  {
-    "title": "Mahiber Connect Hackathon",
-    "date": "Hackathon",
-    "link": "https://mahiber-connect-hackathon.devfolio.co/"
-  },
-  {
-    "title": "Sleepless Coding Saga 3.0",
-    "date": "Hackathon",
-    "link": "https://sleepless-coding-saga-2-de03.devfolio.co/"
-  },
-  {
-    "title": "CodeBlaze 1.0",
-    "date": "Hackathon",
-    "link": "https://codeblaze.devfolio.co/"
-  },
-  {
     "title": "Google Chrome Built-in AI Challenge 2025",
     "date": "Sep 09 - Nov 01, 2025",
     "link": "https://googlechromeai2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1195,14 +1205,14 @@
     "link": "https://green-wells-innovation.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "natHACKS 2024",
-    "date": "Nov 14, 2024 - Nov 17, 2025",
-    "link": "https://nathacks-2024.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "BatchHacks (Students Only; Open-Ended)",
     "date": "Aug 16 - Dec 19, 2025",
     "link": "https://batchhacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "natHACKS 2024",
+    "date": "Nov 14, 2024 - Nov 17, 2025",
+    "link": "https://nathacks-2024.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "DevOne Hack",
@@ -1230,9 +1240,9 @@
     "link": "https://build-with-comet.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "HackNomics",
-    "date": "Sep 14 - Oct 31, 2025",
-    "link": "https://hacknomics.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Student Hackpad 2025 - Low/No Code & Prizes for all participants",
+    "date": "Oct 11 - Nov 16, 2025",
+    "link": "https://studenthackpad.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Maximally Grand Indian Hackathon Season",
@@ -1240,9 +1250,9 @@
     "link": "https://mgihs.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Student Hackpad 2025 - Low/No Code & Prizes for all participants",
-    "date": "Oct 11 - Nov 16, 2025",
-    "link": "https://studenthackpad.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "HackNomics",
+    "date": "Sep 14 - Oct 31, 2025",
+    "link": "https://hacknomics.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Horror Hacks",
@@ -1265,14 +1275,19 @@
     "link": "https://devignite.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Open Hack",
+    "date": "Oct 01 - Nov 01, 2025",
+    "link": "https://open-haxk.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Maximally Hacktober: A Month-Long Hackathon for the Builders Who Won’t Quit",
     "date": "Sep 30 - Oct 31, 2025",
     "link": "https://maximallyhacktober.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Open Hack",
-    "date": "Oct 01 - Nov 01, 2025",
-    "link": "https://open-haxk.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "AI 4 Alzheimer's",
+    "date": "Oct 22 - Dec 31, 2025",
+    "link": "https://ai4alzheimers.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "BUILD Halloween Hacks",
@@ -1283,11 +1298,6 @@
     "title": "Devfest Ilorin: Build with AI Hackathon 2025",
     "date": "Oct 06 - 31, 2025",
     "link": "https://devfest-ilorin-buildwithai-25.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "AI 4 Alzheimer's",
-    "date": "Oct 22 - Dec 31, 2025",
-    "link": "https://ai4alzheimers.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Codyssey",
@@ -1321,7 +1331,7 @@
   },
   {
     "title": "Aether-Tech Hackathon",
-    "date": "Oct 18 - 31, 2025",
+    "date": "Oct 29 - 31, 2025",
     "link": "https://aether-tech-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
@@ -1335,14 +1345,19 @@
     "link": "https://ehc-openhack-i.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Code&Create'25",
+    "date": "Oct 15 - 30, 2025",
+    "link": "https://cc25-orderofnorth.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "CheerpJ: The Hackathon",
     "date": "Sep 01 - Dec 01, 2025",
     "link": "https://cheerpj-the-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Code&Create'25",
-    "date": "Oct 15 - 30, 2025",
-    "link": "https://cc25-orderofnorth.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "LUMA Startathon 2025: Build. Launch. Win.",
+    "date": "Oct 19 - Nov 09, 2025",
+    "link": "https://lumastartathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "2025-2026 Fall ESE Senior Design",
@@ -1355,11 +1370,6 @@
     "link": "https://str-idea-verse.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "LUMA Startathon 2025: Build. Launch. Win.",
-    "date": "Oct 19 - Nov 09, 2025",
-    "link": "https://lumastartathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "E-Techh Hacks",
     "date": "Oct 04 - Dec 19, 2025",
     "link": "https://e-techh-hacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1370,14 +1380,14 @@
     "link": "https://intelligentplanet.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Global Innovation Challenge in Low-Cost Prosthetics 2025",
-    "date": "Aug 31 - Oct 30, 2025",
-    "link": "https://globalprosthetics.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "UI/UX Design Hackathon (Need UI/UX Designer Judges!)",
     "date": "Oct 08 - Nov 30, 2025",
     "link": "https://ui-ux-design-hackathon-26776.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Global Innovation Challenge in Low-Cost Prosthetics 2025",
+    "date": "Aug 31 - Oct 30, 2025",
+    "link": "https://globalprosthetics.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "2025 AI Video Contents Contest - Cultural Diversity",
@@ -1391,7 +1401,7 @@
   },
   {
     "title": "Tech4Tomorrow 2025 Hackathon",
-    "date": "Oct 26 - Dec 01, 2025",
+    "date": "Oct 28 - Dec 01, 2025",
     "link": "https://tech4tomorrow.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
@@ -1400,14 +1410,9 @@
     "link": "https://agnu-hack-2025-ep-1.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Global Youth Climate Hackathon",
-    "date": "Oct 26 - Nov 02, 2025",
-    "link": "https://global-youth-climate-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "PyTorch Dendritic Optimization Hackathon",
-    "date": "Oct 24, 2025 - Jan 05, 2026",
-    "link": "https://pytorch-dendritic-optimization.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Hack the Concrete Jungle: Money 20/20  Las Vegas Edition",
+    "date": "Oct 26 - 29, 2025",
+    "link": "https://hacktheconcretejungle-lv.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Strathspace Hack Day",
@@ -1415,9 +1420,24 @@
     "link": "https://strathspace-hack-day.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hackeroos Spooky Reddit Game Jam - Sponsored by ElevenLabs for AI Audio",
-    "date": "Oct 07 - 28, 2025",
-    "link": "https://spooky-game-jam.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Global Youth Climate Hackathon",
+    "date": "Oct 29 - Nov 02, 2025",
+    "link": "https://global-youth-climate-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Open Vibe Hackathon",
+    "date": "Oct 28 - Nov 30, 2025",
+    "link": "https://open-vibe-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "MICRO LABS HACKATHON 2025",
+    "date": "Oct 27 - Nov 10, 2025",
+    "link": "https://micro-labs-hackathon-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "PyTorch Dendritic Optimization Hackathon",
+    "date": "Oct 24, 2025 - Jan 05, 2026",
+    "link": "https://pytorch-dendritic-optimization.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "London Music Technology Hackathon",
@@ -1435,24 +1455,14 @@
     "link": "https://heg-hack25.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hack the Concrete Jungle: Money 20/20  Las Vegas Edition",
-    "date": "Oct 26 - 29, 2025",
-    "link": "https://hacktheconcretejungle-lv.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "MICRO LABS HACKATHON 2025",
-    "date": "Oct 27 - Nov 10, 2025",
-    "link": "https://micro-labs-hackathon-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "UI UX Tech Club: Short Design Sprint Workshop!",
     "date": "Oct 22 - Nov 02, 2025",
     "link": "https://ui-ux-tech-club-workshop-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "The Career Chase Hackathon",
-    "date": "Oct 27 - 28, 2025",
-    "link": "https://the-career-chase-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Arc - Image-to-model tool",
+    "date": "Oct 27 - Nov 16, 2025",
+    "link": "https://arc-image-to-model-tool.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "CS Knights Halloween Hackathon!",
@@ -1480,9 +1490,9 @@
     "link": "https://ai-for-inclusive-learning.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Arc - Image-to-model tool",
-    "date": "Oct 27 - Nov 16, 2025",
-    "link": "https://arc-image-to-model-tool.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Qiskit Fall Fest 2025 Hackathon - IBM x IITM",
+    "date": "Oct 28 - 31, 2025",
+    "link": "https://qff2025iitm-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "AgriTechJam 2025",
@@ -1495,9 +1505,9 @@
     "link": "https://x-cup-techx.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Open Vibe Hackathon",
-    "date": "Oct 28 - Nov 30, 2025",
-    "link": "https://open-vibe-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "UI UX Tech Club: Testing Festival",
+    "date": "Oct 28 - Nov 05, 2025",
+    "link": "https://testing-festival-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "ACM Chico Chapter Fall 2025 Hackathon",
@@ -1505,14 +1515,19 @@
     "link": "https://acm-fall-25-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "TechFiesta",
+    "date": "Oct 28 - Nov 15, 2025",
+    "link": "https://techfiesta-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "AImpact Hackathon #2",
     "date": "Oct 26 - 30, 2025",
     "link": "https://aimpact-hackathon-2.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Qiskit Fall Fest 2025 Hackathon - IBM x IITM",
-    "date": "Oct 28 - 31, 2025",
-    "link": "https://qff2025iitm-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "ESE 1110 Fall 2025 (Deliwala)",
+    "date": "Oct 29 - Dec 15, 2025",
+    "link": "https://ese1110f25.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "CS Girlies November Hackathon - Make Learning Cool Again!",
@@ -1530,14 +1545,19 @@
     "link": "https://hack-coms-25.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Code the Past Hackathon",
-    "date": "Nov 08 - 09, 2025",
-    "link": "https://code-the-future-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "AI Partner Catalyst: Accelerate Innovation",
+    "date": "Nov 17 - Dec 31, 2025",
+    "link": "https://ai-partner-catalyst.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Vibeathon",
     "date": "Nov 07 - 09, 2025",
     "link": "https://vibeathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Code the Past Hackathon",
+    "date": "Nov 08 - 09, 2025",
+    "link": "https://code-the-future-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Hack the Change 2025",
@@ -1550,14 +1570,9 @@
     "link": "https://hack-for-humanity-26.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "AI Partner Catalyst: Accelerate Innovation",
-    "date": "Nov 17 - Dec 31, 2025",
-    "link": "https://ai-partner-catalyst.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Hack The Border 4.0",
-    "date": "Nov 10 - 16, 2025",
-    "link": "https://hack-the-border-4.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Bria FIBO Hackathon",
+    "date": "Nov 03 - Dec 15, 2025",
+    "link": "https://bria-ai.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Alameda Hacks",
@@ -1615,14 +1630,19 @@
     "link": "https://hack-xr-ai-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "natHacks 2025",
+    "date": "Nov 07 - 10, 2025",
+    "link": "https://nathacks-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "TreeLine Hacks",
     "date": "Mar 06 - 08, 2026",
     "link": "https://treelinev1.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "natHacks 2025",
-    "date": "Nov 07 - 10, 2025",
-    "link": "https://nathacks-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Lovable x Zerobase - Hackathon",
+    "date": "Nov 08 - 10, 2025",
+    "link": "https://lovable-x-zerobase-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "FitchGroup Codeathon '25 - Drive Sustainability using AI - Chicago (Hybrid)",
@@ -1665,24 +1685,19 @@
     "link": "https://learn-to-hack-matlab-edition.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "ImpactX 2025",
-    "date": "Dec 05 - 07, 2025",
-    "link": "https://impactx2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "2025 AI for Good Hackathon",
     "date": "Oct 31 - Nov 02, 2025",
     "link": "https://2025ai4goodhackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "ImpactX 2025",
+    "date": "Dec 05 - 07, 2025",
+    "link": "https://impactx2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "HackPrinceton Fall 2025",
     "date": "Nov 07 - 09, 2025",
     "link": "https://hackprinceton-fall-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Lovable x Zerobase - Hackathon",
-    "date": "Nov 08 - 10, 2025",
-    "link": "https://lovable-x-zerobase-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "HackMars 1.0",
@@ -1700,14 +1715,14 @@
     "link": "https://gemini-hackdays-2025-gcect.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Alchemy Hacks",
-    "date": "Nov 15 - 16, 2025",
-    "link": "https://alchemy-hacks2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "HackCC Fall 2025",
     "date": "Nov 08 - 09, 2025",
     "link": "https://hackcc-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Alchemy Hacks",
+    "date": "Nov 15 - 16, 2025",
+    "link": "https://alchemy-hacks2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Studiio Hacks",
@@ -1725,14 +1740,19 @@
     "link": "https://launchly.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "BDPA Indianapolis Hackathon",
+    "date": "Nov 08, 2025",
+    "link": "https://bdpa-indianapolis-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "nwHacks 2026",
     "date": "Jan 17 - 18, 2026",
     "link": "https://nwhacks-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Blitz Hackathon",
-    "date": "Nov 08 - 09, 2025",
-    "link": "https://blitz-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "DevFest Noida Build-a-thon",
+    "date": "Nov 07, 2025",
+    "link": "https://devfest-noida-build-a-thon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "HackAmerica",
@@ -1740,9 +1760,14 @@
     "link": "https://hackamerica.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "BDPA Indianapolis Hackathon",
-    "date": "Nov 08, 2025",
-    "link": "https://bdpa-indianapolis-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Swan Hacks 2025",
+    "date": "Nov 15 - 16, 2025",
+    "link": "https://swan-hacks-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Datathon PolyFinances 2025",
+    "date": "Nov 01 - 02, 2025",
+    "link": "https://datathon-polyfinances-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "MEGA Hackathon 2026",
@@ -1753,11 +1778,6 @@
     "title": "STEM Energy Hackathon",
     "date": "Nov 14, 2025",
     "link": "https://stem-energy-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Datathon PolyFinances 2025",
-    "date": "Nov 01 - 02, 2025",
-    "link": "https://datathon-polyfinances-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Sierra Hacks",
@@ -1785,19 +1805,19 @@
     "link": "https://hack4hope-la.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Swan Hacks 2025",
-    "date": "Nov 15 - 16, 2025",
-    "link": "https://swan-hacks-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "East Bay Hackers' Winter Hackathon",
+    "date": "Dec 06, 2025",
+    "link": "https://east-bay-hacker-winter.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "BoxBots",
+    "date": "Nov 07 - 09, 2025",
+    "link": "https://boxbots.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Student Vibecoding Hackathon by ISM University",
     "date": "Nov 24 - 27, 2025",
     "link": "https://vibecodinghack.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "East Bay Hackers' Winter Hackathon",
-    "date": "Dec 06, 2025",
-    "link": "https://east-bay-hacker-winter.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "RoseHack 2026",
@@ -1808,11 +1828,6 @@
     "title": "Women AI Hackathon",
     "date": "Nov 15, 2025",
     "link": "https://aihackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "BoxBots",
-    "date": "Nov 07 - 09, 2025",
-    "link": "https://boxbots.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "HackRPI 2025",
@@ -1830,14 +1845,14 @@
     "link": "https://305hackspring2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Hack The Border 4.0",
+    "date": "Nov 10 - 16, 2025",
+    "link": "https://hack-the-border-4.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "ChilangoHacks",
     "date": "Oct 31 - Nov 01, 2025",
     "link": "https://chilangohacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "HackUNCP 2026",
-    "date": "Feb 22, 2026",
-    "link": "https://hackuncp-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "IEEE Technothon 2025",
@@ -1845,14 +1860,9 @@
     "link": "https://ieee-technothon-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Stang Hacks",
-    "date": "Jan 24, 2026",
-    "link": "https://stang-hacks-26.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Hackabyte's 2025 Fall Hackathon",
-    "date": "Nov 15 - 16, 2025",
-    "link": "https://hackabyte-2025-fall-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "HackUNCP 2026",
+    "date": "Feb 22, 2026",
+    "link": "https://hackuncp-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "HackJam 2025",
@@ -1865,6 +1875,16 @@
     "link": "https://cad-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Stang Hacks",
+    "date": "Jan 24, 2026",
+    "link": "https://stang-hacks-26.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Hackabyte's 2025 Fall Hackathon",
+    "date": "Nov 15 - 16, 2025",
+    "link": "https://hackabyte-2025-fall-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Assets on Chain Hackathon",
     "date": "Nov 01, 2025",
     "link": "https://assets-on-chain-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1875,6 +1895,11 @@
     "link": "https://huskyhack.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "MakeUofT 2026",
+    "date": "Feb 14 - 15, 2026",
+    "link": "https://makeuoft-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Kent Hack Enough 2026",
     "date": "Mar 28 - 29, 2026",
     "link": "https://kent-hack-enough-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1883,6 +1908,26 @@
     "title": "evensonarisnord",
     "date": "Dec 31, 2026",
     "link": "https://evensonarisnord.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "App-Fusion 2.O",
+    "date": "Nov 01, 2025",
+    "link": "https://app-fusion.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "UB Hacking Fall 2025",
+    "date": "Nov 08 - 09, 2025",
+    "link": "https://ub-hacking-fall-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "MakeUC 2025",
+    "date": "Nov 08 - 09, 2025",
+    "link": "https://makeuc-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "HackCamp 2025",
+    "date": "Nov 15 - 16, 2025",
+    "link": "https://hackcamp-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "MLH Nairobi Machine Learning Day",
@@ -1905,9 +1950,9 @@
     "link": "https://bellabella-s-hackathon-26494.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "MakeUofT 2026",
-    "date": "Feb 14 - 15, 2026",
-    "link": "https://makeuoft-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "✰ LIVE AI Ivy Plus 2026",
+    "date": "Feb 20 - 22, 2026",
+    "link": "https://liveai-ivyplus-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "OmegaHack EAFIT",
@@ -1930,24 +1975,24 @@
     "link": "https://villagehacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Hack-Nation Global AI Hackathon",
+    "date": "Nov 08 - 09, 2025",
+    "link": "https://global-ai-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "CVHS Hacks",
+    "date": "Nov 08 - 10, 2025",
+    "link": "https://cvhs-hacks-27237.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "WiC Hack Days",
     "date": "Nov 13 - 14, 2025",
     "link": "https://wic-hack-days.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "HackCamp 2025",
-    "date": "Nov 15 - 16, 2025",
-    "link": "https://hackcamp-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "C² Hacks 2025: Social Impact of Tech",
     "date": "Nov 21 - 23, 2025",
     "link": "https://cc-hacks-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "CCDS - Tech for Good 2026",
-    "date": "Jan 02 - 24, 2026",
-    "link": "https://ccds-tech-for-good-2026-27148.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Hard Hack 2026",
@@ -1965,6 +2010,11 @@
     "link": "https://hackthecoast.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Tech for good - first",
+    "date": "Jan 31 - Feb 18, 2026",
+    "link": "https://ccds-tech-for-good-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "BisonHacks 2026",
     "date": "Feb 21 - 22, 2026",
     "link": "https://bisonhacks-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1975,24 +2025,14 @@
     "link": "https://wav-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "DevFest Noida Build-a-thon",
-    "date": "Nov 07, 2025",
-    "link": "https://devfest-noida-build-a-thon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Smart School Helper",
+    "date": "Nov 02, 2025",
+    "link": "https://smart-school-helper.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "RootCipher",
-    "date": "Nov 09, 2025",
-    "link": "https://rootcipher.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Neo Hackathon 2025",
-    "date": "Nov 07 - 09, 2025",
-    "link": "https://neo-hackathon-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "MakeUC 2025",
-    "date": "Nov 08 - 09, 2025",
-    "link": "https://makeuc-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "The Buggernaut 2025",
+    "date": "Nov 14, 2025",
+    "link": "https://the-buggernaut-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "WebDevHacks",
@@ -2020,14 +2060,19 @@
     "link": "https://adventure-hacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "WiE Hackathon 2025",
+    "date": "Nov 16, 2025",
+    "link": "https://uw-wie-hackathon-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Solve for Society",
     "date": "Dec 06 - 07, 2025",
     "link": "https://solve-for-society.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "ESE 1110 Fall 2025 (Deliwala)",
-    "date": "Oct 29 - Dec 15, 2025",
-    "link": "https://ese1110f25.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "HackStorm AIoT: Not as Hard as You Think",
+    "date": "Dec 05 - 07, 2025",
+    "link": "https://hackstorm.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Bitcoin++ Sovereignty Edition",
@@ -2043,11 +2088,6 @@
     "title": "HackCWRU",
     "date": "Jan 23 - Feb 01, 2026",
     "link": "https://hackcwru-012025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "CCDS - Tech for Good 2026",
-    "date": "Jan 31 - Feb 18, 2026",
-    "link": "https://ccds-tech-for-good-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "757 BLD WKND 2026",
@@ -2078,11 +2118,6 @@
     "title": "AI for Good Hackathon",
     "date": "Jun 30 - Aug 06, 2025",
     "link": "https://ai-for-good.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Baseline Tooling Hackathon",
-    "date": "Sep 02 - Oct 06, 2025",
-    "link": "https://baseline.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "AI Accelerate: Unlocking New Frontiers",
@@ -2275,11 +2310,6 @@
     "link": "https://codehypothesis.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Open Source Hackfest",
-    "date": "Oct 17 - 19, 2025",
-    "link": "https://open-source-hackfest-26947.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "SUEDE Designathon 2025",
     "date": "Sep 26 - 28, 2025",
     "link": "https://suede-designathon-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -2465,6 +2495,11 @@
     "link": "https://catalyst-2025-26396.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "MkSU Hackfest 2025 (3rd Edition)",
+    "date": "Oct 23 - 24, 2025",
+    "link": "https://mksu-hackfest-2025-3rd-edition.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Hackabyte California 2025 Fall Hackathon",
     "date": "Oct 04 - 05, 2025",
     "link": "https://fall-hackabyte.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -2473,11 +2508,6 @@
     "title": "Houston Hackathon 2025",
     "date": "Sep 05 - 08, 2025",
     "link": "https://houstonhackathon2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "MkSU Hackfest 2025 (3rd Edition)",
-    "date": "Oct 23 - 24, 2025",
-    "link": "https://mksu-hackfest-2025-3rd-edition.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "MakerHacks II",
@@ -2560,11 +2590,6 @@
     "link": "https://uxperience-fall-25.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Android Hackathon x Slashcom 2025",
-    "date": "Jun 30 - Jul 06, 2025",
-    "link": "https://androidhackathon2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "TurboTenant Hackathon 2025",
     "date": "Sep 20 - Oct 20, 2025",
     "link": "https://turbotenant.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -2645,11 +2670,6 @@
     "link": "https://tech-nol-hack.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "CuseHacks 2025",
-    "date": "Oct 25 - 26, 2025",
-    "link": "https://cusehacks-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "National Hackathon 2K25",
     "date": "Sep 24 - Oct 04, 2025",
     "link": "https://national-hackathon-2k25.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -2660,24 +2680,19 @@
     "link": "https://genz-can-hack-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "SunnyHacks",
-    "date": "Oct 04 - 17, 2025",
-    "link": "https://sunnyhacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "Hyphen-Hacks 2025",
     "date": "Sep 27 - 28, 2025",
     "link": "https://hyphen-hacks01.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "JEWEL CITY HACKS 2.0",
-    "date": "Sep 20 - 27, 2025",
-    "link": "https://jewelcityhacks2.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "HackCMU 2025",
     "date": "Sep 13 - 30, 2025",
     "link": "https://hackcmu-2025.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "JEWEL CITY HACKS 2.0",
+    "date": "Sep 20 - 27, 2025",
+    "link": "https://jewelcityhacks2.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Community Shaper 2025: Hackathon Beta",
@@ -2728,10 +2743,5 @@
     "title": "MemVerge Hackathon",
     "date": "Sep 23 - 30, 2025",
     "link": "https://memverge-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Hack2Impact",
-    "date": "Aug 23 - 24, 2025",
-    "link": "https://hack2impact.devpost.com/?ref_feature=challenge&ref_medium=discover"
   }
 ]
