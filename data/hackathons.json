@@ -1,10 +1,5 @@
 [
   {
-    "title": "Build with Gemini XPRIZE",
-    "date": "May 19 - Aug 17, 2026",
-    "link": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "RevenueCat Shipaton 2026",
     "date": "Jul 31 - Oct 01, 2026",
     "link": "https://revenuecat-shipaton-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -20,24 +15,19 @@
     "link": "https://allthingsagentichackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Agents for Humans Hackathon",
-    "date": "Aug 10 - Sep 14, 2026",
-    "link": "https://agentsforhumans.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "CockroachDB × AWS Hackathon - Build with Agentic Memory",
     "date": "Jun 30 - Aug 18, 2026",
     "link": "https://cockroachdb-ai.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Agents for Humans Hackathon",
+    "date": "Aug 10 - Sep 14, 2026",
+    "link": "https://agentsforhumans.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "CALL-E: Your Code Is Calling",
     "date": "Jul 23 - Sep 14, 2026",
     "link": "https://call-e.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "YouCam API Skin AI & Apparel VTO Hackathon",
-    "date": "Jul 06 - Aug 17, 2026",
-    "link": "https://youcam-api.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Africa Deep Tech Challenge 2026",
@@ -80,9 +70,9 @@
     "link": "https://quantumhacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hack The Limit",
-    "date": "Jun 18 - Aug 30, 2026",
-    "link": "https://hack-the-limit-1.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "DevNetwork [API + Cloud + AI] Hackathon 2026",
+    "date": "Aug 17 - Sep 03, 2026",
+    "link": "https://api-cloud-ai-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Pixel Forge AI Hackathon ($18,000+ in Prizes)",
@@ -90,9 +80,19 @@
     "link": "https://pixel-forge-ai-hackathon-08.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Hack The Limit",
+    "date": "Jun 18 - Aug 30, 2026",
+    "link": "https://hack-the-limit-1.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "NeuralSprint",
     "date": "Jun 18 - Aug 24, 2026",
     "link": "https://neuralsprint.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "AWS Trainium Frontier Competition",
+    "date": "Aug 07 - Oct 01, 2026",
+    "link": "https://trainium-frontier.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Galuxium Nexus V2",
@@ -101,23 +101,18 @@
   },
   {
     "title": "Prism Build Challenge",
-    "date": "Aug 12 - 17, 2026",
+    "date": "Aug 12 - 18, 2026",
     "link": "https://prismbuild.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Hacksocial 2026",
-    "date": "Aug 01 - 31, 2026",
-    "link": "https://hacksocial2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "AWS Trainium Frontier Competition",
-    "date": "Aug 07 - Oct 01, 2026",
-    "link": "https://trainium-frontier.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Inspire Hackathon",
     "date": "Aug 14 - 18, 2026",
     "link": "https://inspire-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Hacksocial 2026",
+    "date": "Aug 01 - 31, 2026",
+    "link": "https://hacksocial2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "The Rice University Urban Sustainability Hackathon",
@@ -135,24 +130,14 @@
     "link": "https://hackonomics27.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "GenZ Can Hack 2026",
-    "date": "Apr 01 - Aug 22, 2026",
-    "link": "https://genz-can-hack-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "The Great Agent Hackathon",
     "date": "Jul 23 - Aug 25, 2026",
     "link": "https://the-great-agent-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "GatewayGS & The AEI Initiative:  AI 4 Earth Hackathon",
-    "date": "Jul 25 - Aug 22, 2026",
-    "link": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "BTT Web Game Jam - Summer 2026",
-    "date": "Aug 07 - 21, 2026",
-    "link": "https://btt-web-game-jam.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "GenZ Can Hack 2026",
+    "date": "Apr 01 - Aug 22, 2026",
+    "link": "https://genz-can-hack-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Global Innovation Build Challenge V2",
@@ -160,19 +145,24 @@
     "link": "https://gibc-v2.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "OregonHacks",
-    "date": "Aug 15 - 17, 2026",
-    "link": "https://oregonhacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "BTT Web Game Jam - Summer 2026",
+    "date": "Aug 07 - 21, 2026",
+    "link": "https://btt-web-game-jam.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Code for Humanity",
-    "date": "Jul 16, 2026 - Jan 15, 2027",
-    "link": "https://code-for-humanity.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "GatewayGS & The AEI Initiative:  AI 4 Earth Hackathon",
+    "date": "Jul 25 - Aug 22, 2026",
+    "link": "https://gatewaygs-ai-4-earth-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Suvidha AI Virtual Hackathon",
     "date": "Aug 15 - 22, 2026",
     "link": "https://suvidha-ai-virtual-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Code for Humanity",
+    "date": "Jul 16, 2026 - Jan 15, 2027",
+    "link": "https://code-for-humanity.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "AnimalHack 2026",
@@ -183,11 +173,6 @@
     "title": "DSH Hacks V2",
     "date": "Jun 24 - Oct 25, 2026",
     "link": "https://dsh-hacks-v2.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Nexora",
-    "date": "Jul 30 - Aug 16, 2026",
-    "link": "https://nexora.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "BuunieX Hackathon",
@@ -216,7 +201,7 @@
   },
   {
     "title": "Brainwave 2026 – Midnight Track",
-    "date": "Aug 10 - 17, 2026",
+    "date": "Aug 10 - 26, 2026",
     "link": "https://brainwave-2026-midnight-track.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
@@ -245,9 +230,9 @@
     "link": "https://creation-code-30750.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "HTCJ Aviation Futures Innovation Challenge",
-    "date": "Jun 25 - Oct 08, 2026",
-    "link": "https://htcj-aviation-futures.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "INNOVIK 6.0 – International Hackathon 2026 | Indore Edition",
+    "date": "Aug 10 - 25, 2026",
+    "link": "https://innovik6-indore.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Hack days in KGI",
@@ -255,9 +240,9 @@
     "link": "https://hack-days-in-kgi.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hack Away Hunger: Food Insecurity Challenge",
-    "date": "Jul 18 - Oct 08, 2026",
-    "link": "https://hack-away-hunger.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "HTCJ Aviation Futures Innovation Challenge",
+    "date": "Jun 25 - Oct 08, 2026",
+    "link": "https://htcj-aviation-futures.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Create with Gemini",
@@ -265,14 +250,14 @@
     "link": "https://create-with-gemini.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Hack Away Hunger: Food Insecurity Challenge",
+    "date": "Jul 18 - Oct 08, 2026",
+    "link": "https://hack-away-hunger.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Spatial Hack AI",
     "date": "Aug 12 - 19, 2026",
     "link": "https://spatial-hack-ai.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Gemini Event - HackMatrix",
-    "date": "Aug 09 - Sep 05, 2026",
-    "link": "https://gemini-event-hackmatrix.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "DIALED IN Builder Challenge",
@@ -280,14 +265,9 @@
     "link": "https://dialedin.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "MCA 2026 projects",
-    "date": "Feb 27 - Dec 25, 2026",
-    "link": "https://mca-2026-projects.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "CISSA Product-thon 2026",
-    "date": "Aug 14 - 17, 2026",
-    "link": "https://cissa-product-thon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Gemini Event - HackMatrix",
+    "date": "Aug 09 - Sep 05, 2026",
+    "link": "https://gemini-event-hackmatrix.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Gemini Builds",
@@ -295,14 +275,19 @@
     "link": "https://gemini-builds.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "STEMinate Wildcard Hack",
-    "date": "Aug 15 - 22, 2026",
-    "link": "https://steminate-wildcard-hack.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "Next Founders Hackathon",
     "date": "Aug 16 - Oct 15, 2026",
     "link": "https://next-founders.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "MCA 2026 projects",
+    "date": "Feb 27 - Dec 25, 2026",
+    "link": "https://mca-2026-projects.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "STEMinate Wildcard Hack",
+    "date": "Aug 15 - 22, 2026",
+    "link": "https://steminate-wildcard-hack.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "TikTok TechJam 2026",
@@ -320,14 +305,14 @@
     "link": "https://launchhacks-v.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "DevNetwork [API + Cloud + AI] Hackathon 2026",
-    "date": "Aug 17 - Sep 03, 2026",
-    "link": "https://api-cloud-ai-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "OneAquaHealth IEEE Global Hackathon",
     "date": "Sep 14 - Oct 01, 2026",
     "link": "https://oneaquahealth-ieee-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "OpenCV AI Competition 2026, powered by AWS",
+    "date": "Aug 26 - Oct 27, 2026",
+    "link": "https://opencv26.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "codeLinc 11 with Lincoln Financial & AWS",
@@ -340,24 +325,14 @@
     "link": "https://proof-of-possible-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hack Apertus",
-    "date": "Oct 01 - 16, 2026",
-    "link": "https://hackapertus.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "NextStep Hacks 2026",
     "date": "Aug 21 - 23, 2026",
     "link": "https://nextstep2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Build with AI Hack Days @EMK",
-    "date": "Aug 17, 2026",
-    "link": "https://build-with-ai-hack-days-emk.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "OpenCV AI Competition 2026, powered by AWS",
-    "date": "Aug 26 - Oct 27, 2026",
-    "link": "https://opencv26.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Hack Apertus",
+    "date": "Oct 01 - 16, 2026",
+    "link": "https://hackapertus.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "IEEE ClimateChain Global Hackathon",
@@ -365,24 +340,24 @@
     "link": "https://ieee-climatechain-hack.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "evensonarisnord",
-    "date": "Dec 31, 2026",
-    "link": "https://evensonarisnord.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "United Hackathons V1",
-    "date": "Oct 06 - 12, 2026",
-    "link": "https://devonomicsv1.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "GatewayHacks 2026 | Software & AI",
     "date": "Sep 01 - Oct 02, 2026",
     "link": "https://gatewayhacks-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "evensonarisnord",
+    "date": "Dec 31, 2026",
+    "link": "https://evensonarisnord.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "United Hacks V8",
     "date": "Jan 08 - 10, 2027",
     "link": "https://unitedhacksv8.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "United Hackathons V1",
+    "date": "Oct 06 - 12, 2026",
+    "link": "https://devonomicsv1.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Tech to Treasure Hackathon",
@@ -420,6 +395,11 @@
     "link": "https://hacknova-26-30838.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Hacking  2026",
+    "date": "Aug 24, 2026",
+    "link": "https://cloudhacks-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "General Learning Hacks",
     "date": "Sep 18 - 19, 2026",
     "link": "https://general-learning-hacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -430,14 +410,9 @@
     "link": "https://innovation-cup2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hacking  2026",
-    "date": "Aug 24, 2026",
-    "link": "https://cloudhacks-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Hack Atlantic",
-    "date": "Sep 27, 2026",
-    "link": "https://hack-atlantic-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "DevLeague 2026",
+    "date": "Aug 21 - 22, 2026",
+    "link": "https://devleague-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "SourceHacks V1",
@@ -445,14 +420,9 @@
     "link": "https://sourcehacksv1.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Since AI 2026",
-    "date": "Nov 06 - 08, 2026",
-    "link": "https://sinceai2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "DevLeague 2026",
-    "date": "Aug 21 - 22, 2026",
-    "link": "https://devleague-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Hack Atlantic",
+    "date": "Sep 27, 2026",
+    "link": "https://hack-atlantic-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "DeveloperWeek 2027 Hackathon",
@@ -460,9 +430,14 @@
     "link": "https://developerweek-2027-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Stupid Ideas Hackathon (Ottawa F26)",
-    "date": "Sep 12, 2026",
-    "link": "https://stupideas-ottawa-f26.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Beginner's Paradise - FirstCommit",
+    "date": "Aug 21 - Sep 30, 2026",
+    "link": "https://firstcommit.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Since AI 2026",
+    "date": "Nov 06 - 08, 2026",
+    "link": "https://sinceai2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Zoftware Hireathon",
@@ -470,19 +445,14 @@
     "link": "https://zoftware-hireathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Stupid Ideas Hackathon (Ottawa F26)",
+    "date": "Sep 12, 2026",
+    "link": "https://stupideas-ottawa-f26.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Shower Hacks",
     "date": "Sep 26 - 27, 2026",
     "link": "https://showerhacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Beginner's Paradise - FirstCommit",
-    "date": "Aug 21 - Sep 30, 2026",
-    "link": "https://firstcommit.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "LarpHacks",
-    "date": "Oct 23, 2026",
-    "link": "https://larphacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "EurekaDev 2026",
@@ -490,9 +460,19 @@
     "link": "https://eurekadev.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "LarpHacks",
+    "date": "Oct 23, 2026",
+    "link": "https://larphacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Case Closed",
     "date": "Sep 20, 2026",
     "link": "https://caseclosed.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Build with AI Hack Days @BAU",
+    "date": "Aug 22, 2026",
+    "link": "https://bau-hack.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "ForgeHacks Online 2026",
@@ -505,6 +485,16 @@
     "link": "https://hackdays-fatehpur-30935.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "TechX Rwanda Hackathon",
+    "date": "Aug 29, 2026",
+    "link": "https://techx-rwanda-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "CodeWars",
+    "date": "Aug 23, 2026",
+    "link": "https://codewars.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "BioHacks",
     "date": "Nov 07 - 08, 2026",
     "link": "https://biohacksmcmaster.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -515,21 +505,6 @@
     "link": "https://8-bit-jam.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "CodeWars",
-    "date": "Aug 23, 2026",
-    "link": "https://codewars.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Build with AI Hack Days @BAU",
-    "date": "Aug 22, 2026",
-    "link": "https://bau-hack.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "TechX Rwanda Hackathon",
-    "date": "Aug 29, 2026",
-    "link": "https://techx-rwanda-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "RecT Solutions Hackathon: Beyond the CV 2026",
     "date": "Oct 10 - 11, 2026",
     "link": "https://rect-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -538,11 +513,6 @@
     "title": "AI Hackathon 2026 by LA Hacks",
     "date": "Oct 17 - 18, 2026",
     "link": "https://la-ai-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "VentureFix",
-    "date": "Aug 30 - Sep 13, 2026",
-    "link": "https://venturefix.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "AI Agent Hackathon",
@@ -570,9 +540,19 @@
     "link": "https://vibecode-animated-maps.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "VentureFix",
+    "date": "Aug 30 - Sep 13, 2026",
+    "link": "https://venturefix.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "GatewayGS Hackathon 2",
     "date": "Sep 01 - 16, 2026",
     "link": "https://gatewaygs-hackathon-2.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "RoadStar Hackathon",
+    "date": "Sep 05 - 13, 2026",
+    "link": "https://roadstarhackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Dublin Hacx",
@@ -590,29 +570,24 @@
     "link": "https://hoya-hacks-2027.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Build with Gemini - Gen Recruiter",
-    "date": "Sep 10, 2026",
-    "link": "https://gen-recruiter-google-gemini.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "BearHacks 2027",
     "date": "Apr 23 - 25, 2027",
     "link": "https://bearhacks2027.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "RoadStar Hackathon",
-    "date": "Sep 05 - 13, 2026",
-    "link": "https://roadstarhackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "HackGT13",
-    "date": "Sep 25 - 27, 2026",
-    "link": "https://hackgt13.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "Build with Gemini - Gen Recruiter",
+    "date": "Sep 10, 2026",
+    "link": "https://gen-recruiter-google-gemini.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "LexHack 2026",
     "date": "Sep 11 - 27, 2026",
     "link": "https://lexhack-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "HackGT13",
+    "date": "Sep 25 - 27, 2026",
+    "link": "https://hackgt13.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Lake Oswego Hacks",
@@ -623,11 +598,6 @@
     "title": "H.A.R.D. Hack 2027",
     "date": "Jan 30 - 31, 2027",
     "link": "https://h-a-r-d-hack-2027.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Vibe Coding Arena 2026",
-    "date": "Aug 20, 2026",
-    "link": "https://vibe-coding-arena-2026-30996.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "WWU Social Justice Hackathon",
@@ -665,6 +635,11 @@
     "link": "https://southwest-mn-hacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Prompt Wars 2026",
+    "date": "Aug 29, 2026",
+    "link": "https://prompt-wars-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "MYHack: ISNA 2026",
     "date": "Sep 05 - 06, 2026",
     "link": "https://myhack-isna.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -683,6 +658,11 @@
     "title": "SpartaHack 12",
     "date": "Feb 06 - 07, 2027",
     "link": "https://spartahack-12.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "The CAD Challenge 2026",
+    "date": "Sep 12 - 14, 2026",
+    "link": "https://the-cad-challenge-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Prompt2Product: MLH Hack Day @ AITR",
@@ -733,11 +713,6 @@
     "title": "Hack Knowvy - 1",
     "date": "Sep 06, 2026",
     "link": "https://hack-knowvy-1.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "The CAD Challenge 2026",
-    "date": "Sep 12 - 14, 2026",
-    "link": "https://the-cad-challenge-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "FutureForge Hacks",
@@ -805,9 +780,9 @@
     "link": "https://global-psyops-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Expo 26 hackathon",
-    "date": "Sep 19, 2026",
-    "link": "https://expo26.devpost.com/?ref_feature=challenge&ref_medium=discover"
+    "title": "HACK47: OFFGRID",
+    "date": "Sep 15 - Oct 15, 2026",
+    "link": "https://hack47-offgrid.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Meow",
@@ -818,6 +793,16 @@
     "title": ".devHacks 2027",
     "date": "Feb 19 - 21, 2027",
     "link": "https://devhacks-2027.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Practice Submission",
+    "date": "Aug 28 - 30, 2026",
+    "link": "https://practice-submission.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "HopHacks Fall 2026",
+    "date": "Sep 18 - 20, 2026",
+    "link": "https://hophacks-fall-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Revolution",
@@ -845,6 +830,11 @@
     "link": "https://openai.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Build with Gemini XPRIZE",
+    "date": "May 19 - Aug 17, 2026",
+    "link": "https://xprize.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Global AI Hackathon Series with Qwen Cloud",
     "date": "May 26 - Jul 20, 2026",
     "link": "https://qwencloud-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -863,6 +853,11 @@
     "title": "Arm Create: AI Optimization Challenge",
     "date": "Jun 04 - Aug 14, 2026",
     "link": "https://arm-ai-optimization-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "YouCam API Skin AI & Apparel VTO Hackathon",
+    "date": "Jul 06 - Aug 17, 2026",
+    "link": "https://youcam-api.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Agentic AI Build Week 2026",
@@ -923,11 +918,6 @@
     "title": "IGAD Hackathon 2026: Smarter Early Warning, Stronger Communities",
     "date": "Jun 22 - Jul 31, 2026",
     "link": "https://igad-husika-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "India High School Exoplanet Data Challenge",
-    "date": "Jun 15 - Jul 31, 2026",
-    "link": "https://celesta-exoplanet-challenge.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Hack the Tech",
@@ -995,6 +985,11 @@
     "link": "https://cutc-transform.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "OregonHacks",
+    "date": "Aug 15 - 17, 2026",
+    "link": "https://oregonhacks.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "Vitalitics 2026",
     "date": "Jun 20 - Aug 05, 2026",
     "link": "https://vitalitics26.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1023,16 +1018,6 @@
     "title": "Your idea vs 1,000 other marketers. Let’s see where you actually stand.",
     "date": "Apr 15 - Jun 14, 2026",
     "link": "https://connectsblue.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "CSC Summer Impactathon",
-    "date": "Jul 09 - Aug 10, 2026",
-    "link": "https://csc-summer-impactathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "Loop Engineering Hackathon",
-    "date": "Jul 17, 2026",
-    "link": "https://loop-engineering-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "DTI Hackathon 2026",
@@ -1100,6 +1085,11 @@
     "link": "https://vibehack-london-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "Build with AI Hack Days @EMK",
+    "date": "Aug 17, 2026",
+    "link": "https://build-with-ai-hack-days-emk.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "AI Passport Ideathon",
     "date": "Aug 08 - 12, 2026",
     "link": "https://ai-passport-ideathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1108,6 +1098,11 @@
     "title": "GreenHack By Grevoro",
     "date": "May 07 - 28, 2026",
     "link": "https://greenhack-29961.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Nexora",
+    "date": "Jul 30 - Aug 16, 2026",
+    "link": "https://nexora.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "NeuroX1.0 - Online Qualification Round",
@@ -1235,11 +1230,6 @@
     "link": "https://vector-vision.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Spiti-AI Hackathon",
-    "date": "May 07 - 14, 2026",
-    "link": "https://spitiaihackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "Checkout - The Travel & Hospitality Hackathon",
     "date": "Aug 09, 2026",
     "link": "https://nyc-travel-hack.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1365,11 +1355,6 @@
     "link": "https://neoma-ai-hackathon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "IMSA.ai Hackathon",
-    "date": "Apr 27 - May 05, 2026",
-    "link": "https://imsa-ai-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "305 SummerCodex Edition July 2026",
     "date": "Jul 05 - 31, 2026",
     "link": "https://305summercodexjul2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1470,11 +1455,6 @@
     "link": "https://robotic-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
-    "title": "Hack Days in Oriental",
-    "date": "Aug 16, 2026",
-    "link": "https://hack-days-in-oriental.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
     "title": "Vortexa",
     "date": "May 28 - Jun 17, 2026",
     "link": "https://vortexa.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1488,6 +1468,11 @@
     "title": "Hack Days in Bhopal 2.O",
     "date": "Aug 15 - 16, 2026",
     "link": "https://hack-days-in-bhopal-2-o.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Hack Days in Oriental",
+    "date": "Aug 16, 2026",
+    "link": "https://hack-days-in-oriental.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Build with AI @RUET",
@@ -1513,11 +1498,6 @@
     "title": "Girls Got Game Jam",
     "date": "Jun 15 - 24, 2026",
     "link": "https://girls-got-game-jam-3.devpost.com/?ref_feature=challenge&ref_medium=discover"
-  },
-  {
-    "title": "INNOVIK 6.0 – International Hackathon 2026 | Indore Edition",
-    "date": "Aug 10 - 15, 2026",
-    "link": "https://innovik6-indore.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
     "title": "Vancouver Made",
@@ -1595,6 +1575,11 @@
     "link": "https://gdgoc-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
   },
   {
+    "title": "CISSA Product-thon 2026",
+    "date": "Aug 14 - 17, 2026",
+    "link": "https://cissa-product-thon-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
     "title": "$1,000 Industrial AI Hackathon",
     "date": "Jun 26 - 27, 2026",
     "link": "https://1-000-industrial-ai-hackathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
@@ -1618,5 +1603,20 @@
     "title": "Hack Days in Jabalpur",
     "date": "Aug 16, 2026",
     "link": "https://hack-days-in-jabalpur.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "MYHack 2026",
+    "date": "Jul 25 - 26, 2026",
+    "link": "https://myhack-2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "DIVE 2026",
+    "date": "Jul 25 - 26, 2026",
+    "link": "https://dive2026.devpost.com/?ref_feature=challenge&ref_medium=discover"
+  },
+  {
+    "title": "Hack Days in Hosur",
+    "date": "Jun 18 - Jul 02, 2026",
+    "link": "https://hack-days-in-hosur-30464.devpost.com/?ref_feature=challenge&ref_medium=discover"
   }
 ]
